@@ -1,0 +1,9 @@
+.sa-fade-in {
+    transition: opacity 5s;
+    opacity: 0;
+}
+
+.sa-fade-in.show {
+    opacity: 1;
+}
+
