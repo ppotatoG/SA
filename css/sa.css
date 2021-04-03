@@ -1,9 +1,109 @@
+.sa {
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+}
+
 .sa-fade-in {
-    transition: opacity 5s;
     opacity: 0;
 }
-
 .sa-fade-in.show {
-    opacity: 1;
+    animation-name: safade-in;
+}
+@keyframes safade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
+.sa-scale {
+    transform: scale(0);
+}
+.sa-scale.show {
+    animation-name: sascale;
+}
+@keyframes sascale{
+    0% {
+        transform: scale(0);
+    }
+    70% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.sa-rotate.show {
+    animation-name: sarotate;
+}
+@keyframes sarotate {
+    0% {
+        transform: rotate( 0deg);
+    }
+    100% {
+        transform: rotate( 360deg);
+    }
+}
+
+.sa-from-left {
+    transform: translate(0, 0);
+}
+.sa-from-left.show {
+    animation-name: sa-from-left;
+}
+@keyframes sa-from-left{
+    0% {
+        transform: translate(-500px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.sa-from-right {
+    transform: translate(0, 0);
+}
+.sa-from-left.show {
+    animation-name: sa-from-right;
+}
+@keyframes sa-from-right{
+    0% {
+        transform: translate(500px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.sa-from-top {
+    transform: translate(0, 0);
+}
+.sa-from-top.show {
+    animation-name: sa-from-top;
+}
+@keyframes sa-from-top{
+    0% {
+        transform: translate(0, -500px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.sa-from-bottom {
+    transform: translate(0, 0);
+}
+.sa-from-bottom.show {
+    animation-name: sa-from-bottom;
+}
+@keyframes sa-from-bottom{
+    0% {
+        transform: translate(0, 500px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
