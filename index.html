@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sa</title>
+    <link rel="stylesheet" href="css/sa.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            width: 100%; 
+            margin: 0 auto;
+        }
+        #header {
+            width: 100%;
+            height: 100vh;
+            background-color: #eee;
+        }
+        .box {
+            width: 250px;
+            height: 250px;
+            border: solid 10px skyblue;
+            margin: 100px auto 0;
+            background-color: #fff;
+        }
+        #wrap .box:first-child {margin-top: 0;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">header</header>
+        <div class="box sa sa-fade-in">fade-in</div>
+        <div class="box sa sa-scale">scale</div>
+        <div class="box sa sa-from-left">from-left</div>
+        <div class="box sa sa-from-right">from-right</div>
+        <div class="box sa sa-from-top">from-top</div>
+        <div class="box sa sa-from-bottom">from-bottom</div>
+        <div class="box sa sa-flip">flip</div>
+    </div>
+<script src="js/sa.js"></script>
+</body>
+</html>
