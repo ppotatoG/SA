@@ -1,10 +1,9 @@
 # SA
 
 Easy and simple scroll animation.
-
-
+<br>
+[Demo](https://ppotatog.github.io/sa/index.html)
 ## Usage
-
 ### CDN
 
 css
@@ -27,3 +26,4 @@ javascript
 <div class="sa sa-from-bottom">from-bottom</div>
 <div class="sa sa-flip">flip</div>
 ```
+
