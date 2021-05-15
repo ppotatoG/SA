@@ -1,0 +1,28 @@
+@mixin animation-mixin($name) {
+    [data-sa="#{$name}"] {
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+        opacity: 0;
+        transition: opacity .5s;
+
+        &.show {
+            opacity: 1;
+            animation-name: sa-#{$name};
+        }
+    }
+}
+
+@include animation-mixin("scale");         
+
+
+@keyframes sa-scale{
+    0% {
+        transform: scale(0);
+    }
+    70% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
