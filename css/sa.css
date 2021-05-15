@@ -1,14 +1,318 @@
-[data-sa="scale"] {
+[data-sa][data-sa-duration="500"][data-sa="scale"] {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
   opacity: 0;
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
 }
 
-[data-sa="scale"].show {
+[data-sa][data-sa-duration="500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="1000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="1000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="1500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="1500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="2000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="2000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="2500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 2500ms;
+          animation-duration: 2500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="2500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="3000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 3000ms;
+          animation-duration: 3000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="3000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="3500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 3500ms;
+          animation-duration: 3500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="3500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="4000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 4000ms;
+          animation-duration: 4000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="4000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="4500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 4500ms;
+          animation-duration: 4500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="4500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="5000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 5000ms;
+          animation-duration: 5000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="5000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="5500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 5500ms;
+          animation-duration: 5500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="5500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="6000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 6000ms;
+          animation-duration: 6000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="6000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="6500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 6500ms;
+          animation-duration: 6500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="6500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="7000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 7000ms;
+          animation-duration: 7000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="7000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="7500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 7500ms;
+          animation-duration: 7500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="7500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="8000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 8000ms;
+          animation-duration: 8000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="8000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="8500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 8500ms;
+          animation-duration: 8500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="8500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="9000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 9000ms;
+          animation-duration: 9000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="9000"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="9500"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 9500ms;
+          animation-duration: 9500ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="9500"][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa-duration="10000"][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 10000ms;
+          animation-duration: 10000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa-duration="10000"][data-sa="scale"].show {
   opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;

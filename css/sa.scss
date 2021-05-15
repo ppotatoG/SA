@@ -1,7 +1,7 @@
-@mixin animation-mixin($name) {
-    [data-sa="#{$name}"] {
+@mixin animation-mixin($name, $duration) {
+    &[data-sa="#{$name}"] {
         animation-fill-mode: forwards;
-        animation-duration: 1s;
+        animation-duration: #{$duration};
         opacity: 0;
         transition: opacity .5s;
 
@@ -12,8 +12,13 @@
     }
 }
 
-@include animation-mixin("scale");         
-
+[data-sa] {
+    @for $i from 1 through 20{
+        &[data-sa-duration= "#{$i*500}" ] {
+            @include animation-mixin("scale", #{$i*500}ms);            
+        }
+    }
+}
 
 @keyframes sa-scale{
     0% {
