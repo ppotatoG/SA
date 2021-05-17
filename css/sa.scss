@@ -1,3 +1,5 @@
+@import url(keyframes.css);
+
 @mixin animation-mixin($name, $duration) {
     &[data-sa="#{$name}"] {
         animation-fill-mode: forwards;
@@ -17,17 +19,5 @@
         &[data-sa-duration= "#{$i*500}" ] {
             @include animation-mixin("scale", #{$i*500}ms);            
         }
-    }
-}
-
-@keyframes sa-scale{
-    0% {
-        transform: scale(0);
-    }
-    70% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
     }
 }
