@@ -1,7 +1,7 @@
 @import url(keyframes.css);
 
-@mixin animation-mixin($name, $duration) {
-    &[data-sa="#{$name}"] {
+@mixin animation-mixin($arr, $duration) {
+    &[data-sa="#{$arr}"] {
         animation-fill-mode: forwards;
         animation-duration: #{$duration};
         opacity: 0;
@@ -9,15 +9,18 @@
 
         &.show {
             opacity: 1;
-            animation-name: sa-#{$name};
+            animation-name: sa-#{$arr};
         }
     }
 }
-
 [data-sa] {
-    @for $i from 1 through 20{
-        &[data-sa-duration= "#{$i*500}" ] {
-            @include animation-mixin("scale", #{$i*500}ms);            
+    $arr: 'scale', 'from-left', 'from-right', 'from-top', 'from-bottom', 'flip';
+    
+    @each $item in $arr {
+        @for $i from 1 through 20{
+            &[data-sa-duration= "#{$i*500}" ] {
+                @include animation-mixin($item, #{$i*500}ms);            
+            }
         }
     }
 }
