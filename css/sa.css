@@ -1,4 +1,100 @@
 @import url(keyframes.css);
+[data-sa][data-sa="scale"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa="scale"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-scale;
+          animation-name: sa-scale;
+}
+
+[data-sa][data-sa="from-left"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa="from-left"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-from-left;
+          animation-name: sa-from-left;
+}
+
+[data-sa][data-sa="from-right"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa="from-right"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-from-right;
+          animation-name: sa-from-right;
+}
+
+[data-sa][data-sa="from-top"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa="from-top"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-from-top;
+          animation-name: sa-from-top;
+}
+
+[data-sa][data-sa="from-bottom"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa="from-bottom"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-from-bottom;
+          animation-name: sa-from-bottom;
+}
+
+[data-sa][data-sa="flip"] {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+[data-sa][data-sa="flip"].show {
+  opacity: 1;
+  -webkit-animation-name: sa-flip;
+          animation-name: sa-flip;
+}
+
 [data-sa][data-sa-duration="500"][data-sa="scale"] {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
