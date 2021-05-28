@@ -14,13 +14,13 @@
     }
 }
 [data-sa] {
-    $arr: 'scale', 'from-left', 'from-right', 'from-top', 'from-bottom', 'flip';
+    $name: 'scale', 'from-left', 'from-right', 'from-top', 'from-bottom', 'flip';
     
-    @each $item in $arr {
+    @each $item in $name {
         @include animation-mixin($item, 1000ms);
     }
 
-    @each $item in $arr {// has duration
+    @each $item in $name {// has duration
         @for $i from 1 through 20{
             &[data-sa-duration= "#{$i*500}" ] {
                 @include animation-mixin($item, #{$i*500}ms);            
