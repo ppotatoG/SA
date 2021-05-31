@@ -53,7 +53,10 @@
     }
 }
 .contents{
-    .main {
+    section{margin-top: 50px;}
+    section:first-child{margin-top: 0;}
+
+    #main {
         background: {
             image : url(https://postfiles.pstatic.net/MjAyMTA1MTlfOSAg/MDAxNjIxNDI3NTczNzc4.0L2JXyo6uYdyPCf8FvjHpWafXeO2UHr_655A_LmW83og.1RyD76xlFgQiUbg3UNaZ1fh1dFlZXUpaX213cZg6Yykg.JPEG.thgus2270/IMG_6757.jpg?type=w966);
             size : cover;
@@ -73,10 +76,16 @@
     }
 }
 .box {
-    width: 250px;
-    height: 250px;
+    width: 50vw;
+    height: 50vw;
+    max-width: 250px;
+    max-height: 250px;
     border: solid 10px skyblue;
+    border-radius: 20px;
     margin: 100px auto 0;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #wrap .box:first-child {margin-top: 0;}
