@@ -13,6 +13,8 @@
 }
 #header {
     width: 100%;
+    position: absolute;
+    top: 0;
     .wrap{
         width: 100%;
         display: flex;
@@ -22,6 +24,9 @@
         margin: 0 auto;
         padding: 2vw 5vw;
         box-sizing: border-box;
+        h1 {
+            color: #fff;
+        }
         ul{
             display: flex;
             li{
@@ -32,6 +37,7 @@
                      display: block;
                      width: 100%;
                      height: 100%;
+                     color: #fff;
                  }
             }
         }
@@ -40,6 +46,10 @@
         position: fixed;
         top: 0;
         left: 0;
+        background-color: rgba($color: #fff, $alpha: 0.7);
+        z-index: 10;
+        h1 {color: #000;}
+        ul li a {color: #000;}
     }
 }
 .contents{
@@ -48,6 +58,7 @@
             image : url(https://postfiles.pstatic.net/MjAyMTA1MTlfOSAg/MDAxNjIxNDI3NTczNzc4.0L2JXyo6uYdyPCf8FvjHpWafXeO2UHr_655A_LmW83og.1RyD76xlFgQiUbg3UNaZ1fh1dFlZXUpaX213cZg6Yykg.JPEG.thgus2270/IMG_6757.jpg?type=w966);
             size : cover;
             repeat: no-repeat;
+            position : top center;
         }
         min-height: 80vh;
         h2 {
