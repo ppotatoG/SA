@@ -2,8 +2,10 @@
 
 Easy and simple scroll animation.
 <br>
-[Demo](https://ppotatog.github.io/sa/index.html)
+[Demo](https://ppotatog.github.io/sa/demo/)
+
 ## Usage
+
 ### CDN
 
 css
