@@ -53,8 +53,12 @@
     }
 }
 .contents{
-    section{margin-top: 50px;}
-    section:first-child{margin-top: 0;}
+    section{
+        padding: 10vw 0;
+        &:first-child{
+            padding-top: 0;
+        }
+    }
 
     #main {
         background: {
@@ -89,3 +93,8 @@
     align-items: center;
 }
 #wrap .box:first-child {margin-top: 0;}
+footer {
+    padding:5vh;
+    text-align: center;
+    background: #eee;
+}
