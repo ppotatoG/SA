@@ -1,9 +1,10 @@
 @import url(keyframes.css);
 
-@mixin animation-mixin($arr, $duration) {
+@mixin animation-mixin($arr, $duration, $delay) {
     &[data-sa="#{$arr}"] {
         animation-fill-mode: forwards;
         animation-duration: #{$duration};
+        animation-delay: #{$delay};
         opacity: 0;
         transition: opacity .5s;
 
@@ -17,13 +18,19 @@
     $name: 'scale', 'from-left', 'from-right', 'from-top', 'from-bottom', 'flip';
     
     @each $item in $name {
-        @include animation-mixin($item, 1000ms);
+        @include animation-mixin($item, 1000ms, 0);
     }
 
     @each $item in $name {// has duration
         @for $i from 1 through 20{
-            &[data-sa-duration= "#{$i*500}" ] {
-                @include animation-mixin($item, #{$i*500}ms);            
+            &[data-sa-duration = "#{$i*500}"] {
+                @include animation-mixin($item, #{$i*500}ms, 0);            
+            }
+            &[data-sa-delay = "#{$i*500}"] {
+                @include animation-mixin($item, 0, #{$i*500}ms);            
+            }
+            &[data-sa-duration = "#{$i*500}"][data-sa-delay = "#{$i*500}"] {
+                @include animation-mixin($item, #{$i*500}ms, #{$i*500}ms);            
             }
         }
     }
