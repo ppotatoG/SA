@@ -7,8 +7,8 @@ window.addEventListener('scroll', () => {
             saStyleSet(saNode);  
             saNode.classList.add('show');
         } else if(rect.top > point + point*(0.1)) {
-            // saNode.classList.remove('show');
-        } 
+            saNode.classList.remove('show');
+        }
             
     }
 });
