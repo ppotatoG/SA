@@ -28,4 +28,13 @@ javascript
 <div class="sa sa-from-bottom">from-bottom</div>
 <div class="sa sa-flip">flip</div>
 ```
-
+### property
+And adjust behaviour by using `data-sa-*` attributes
+```html
+<div
+    data-sa-offset="200px"
+    data-sa-delay="50"
+    data-sa-duration="1000"
+>
+</div>
+```
