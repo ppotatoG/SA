@@ -2,7 +2,7 @@
 
 Easy and simple scroll animation.
 <br>
-[Demo](https://ppotatog.github.io/sa/demo/)
+[Demo](https://ppotatog.github.io/SA/demo/)
 
 ## Usage
 
