@@ -16,7 +16,6 @@ window.addEventListener('scroll', () => {
 function saStyleSet(saNode){
     const match = saNode.dataset.sa.match(/from-(.*)/);
 
-    // saNode.dataset.sa 'from-'으로 시작할 때
     if(match) { 
         const from = match[1];
         const offset = saNode.dataset.saOffset;
