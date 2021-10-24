@@ -15,7 +15,7 @@
     }
 }
 [data-sa] {
-    $name: 'from-left', 'from-right', 'from-top', 'from-bottom', 'flip', 'scale';
+    $name: 'from-left', 'from-right', 'from-top', 'from-bottom', 'flip-top', 'flip-right', 'flip-bottom', 'flip-left', 'scale';
     
     @each $item in $name {
         @include animation-mixin($item, 1000ms, 0);
