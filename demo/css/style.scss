@@ -84,15 +84,17 @@
     height: 50vw;
     max-width: 250px;
     max-height: 250px;
-    border: solid 10px skyblue;
-    border-radius: 20px;
+    border: solid 10px lightsalmon;
     margin: 100px auto 0;
-    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba($color: #000, $alpha: 0.7);
+    &:first-child {margin-top: 0;}
+    code {
+        color:#fff;
+    }
 }
-#wrap .box:first-child {margin-top: 0;}
 footer {
     padding:5vh;
     text-align: center;
