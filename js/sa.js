@@ -6,10 +6,12 @@ window.addEventListener('scroll', () => {
         if(rect.top <= point) {
             saStyleSet(saNode);  
             saNode.classList.add('show');
-        } else if(rect.top > point + point*(0.1)) {
-            saNode.classList.remove('show');
-        }
+        } else if(saNode.dataset.saOnce === 'false'){
+            if(rect.top > point + point*(0.1)) {
+                saNode.classList.remove('show');
+            }
             
+        }
     }
 });
 
