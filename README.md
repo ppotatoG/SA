@@ -1,10 +1,9 @@
 # SA
 
-Easy and simple scroll animation.
+`Vanilla JS`와 `SCSS`를 사용한 스크롤 애니메이션 플러그인 입니다 (≧∇≦)ﾉ
+
 <br>
 [Demo](https://ppotatog.github.io/SA/demo/)
-
-## Usage
 
 ### CDN
 
@@ -18,23 +17,37 @@ javascript
 <script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa/js/sa.js"></script>
 ```
 
-### Example
+### type
 ```html
-<div class="sa sa-fade-in">fade-in</div>
-<div class="sa sa-scale">scale</div>
-<div class="sa sa-from-left">from-left</div>
-<div class="sa sa-from-right">from-right</div>
-<div class="sa sa-from-top">from-top</div>
-<div class="sa sa-from-bottom">from-bottom</div>
-<div class="sa sa-flip">flip</div>
+<div data-sa="from-left">from-left</div>
+<div data-sa="from-right">from-right</div>
+<div data-sa="from-top">from-top</div>
+<div data-sa="from-bottom">from-bottom</div>
+<div data-sa="flip-left">flip-left</div>
+<div data-sa="flip-right">flip-right</div>
+<div data-sa="flip-top">flip-top</div>
+<div data-sa="flip-bottom">flip-bottom</div>
+<div data-sa="scale">scale</div>
 ```
+
 ### property
-And adjust behaviour by using `data-sa-*` attributes
+
+- `data-sa-*`로 사용합니다
+
+- `offset`은 `-position`에 사용 가능하며, 단위까지 설정 가능합니다.
+
+- `delay`의 기본값은 0이며, 500ms부터 500단위로 10000ms까지 가능합니다.
+
+- `duration`의 기본값은 1000이며, 500ms부터 500단위로 10000ms까지 가능합니다.
+
+- `once`의 기본값은 true이며, boolean입니다.
+
 ```html
 <div
     data-sa-offset="200px"
     data-sa-delay="50"
     data-sa-duration="1000"
+    data-sa-once="false"
 >
 </div>
 ```
