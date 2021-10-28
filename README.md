@@ -2,8 +2,9 @@
 
 `Vanilla JS`와 `SCSS`를 사용한 스크롤 애니메이션 플러그인 입니다 (≧∇≦)ﾉ
 
-<br>
 [Demo](https://ppotatog.github.io/SA/demo/)
+
+[SA 일기](https://blog.naver.com/thgus2270/222523584611)
 
 ### CDN
 
