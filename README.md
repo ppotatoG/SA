@@ -10,12 +10,12 @@
 
 css
 ```html
-<link href="https://cdn.jsdelivr.net/gh/ppotatoG/sa/css/sa.css">
+<link href="https://cdn.jsdelivr.net/gh/ppotatoG/sa@0834b78/css/sa.css">
 ```
 
 javascript
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa/js/sa.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa@0834b78/js/sa.js"></script>
 ```
 
 ### type
