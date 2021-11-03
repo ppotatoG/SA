@@ -7,12 +7,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -25,12 +22,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -43,12 +37,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -61,12 +52,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -79,12 +67,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -97,12 +82,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -115,12 +97,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -133,12 +112,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -151,12 +127,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -169,12 +142,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -187,12 +157,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -205,12 +172,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -223,12 +187,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -241,12 +202,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -259,12 +217,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -277,12 +232,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -295,12 +247,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -313,12 +262,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -331,12 +277,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -349,12 +292,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -367,12 +307,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -385,12 +322,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -403,12 +337,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -421,12 +352,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -439,12 +367,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -457,12 +382,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -475,12 +397,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -493,12 +412,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -511,12 +427,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -529,12 +442,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -547,12 +457,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -565,12 +472,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -583,12 +487,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -601,12 +502,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -619,12 +517,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -637,12 +532,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -655,12 +547,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -673,12 +562,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -691,12 +577,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -709,12 +592,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -727,12 +607,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -745,12 +622,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -763,12 +637,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -781,12 +652,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -799,12 +667,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -817,12 +682,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -835,12 +697,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -853,12 +712,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -871,12 +727,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -889,12 +742,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -907,12 +757,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -925,12 +772,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -943,12 +787,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -961,12 +802,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -979,12 +817,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -997,12 +832,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1015,12 +847,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1033,12 +862,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1051,12 +877,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1069,12 +892,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1087,12 +907,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1105,12 +922,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1123,12 +937,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1141,12 +952,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1159,12 +967,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1177,12 +982,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1195,12 +997,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1213,12 +1012,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1231,12 +1027,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="from-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-left;
           animation-name: sa-from-left;
 }
@@ -1249,12 +1042,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1267,12 +1057,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1285,12 +1072,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1303,12 +1087,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1321,12 +1102,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1339,12 +1117,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1357,12 +1132,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1375,12 +1147,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1393,12 +1162,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1411,12 +1177,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1429,12 +1192,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1447,12 +1207,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1465,12 +1222,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1483,12 +1237,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1501,12 +1252,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1519,12 +1267,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1537,12 +1282,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1555,12 +1297,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1573,12 +1312,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1591,12 +1327,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1609,12 +1342,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1627,12 +1357,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1645,12 +1372,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1663,12 +1387,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1681,12 +1402,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1699,12 +1417,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1717,12 +1432,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1735,12 +1447,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1753,12 +1462,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1771,12 +1477,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1789,12 +1492,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1807,12 +1507,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1825,12 +1522,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1843,12 +1537,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1861,12 +1552,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1879,12 +1567,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1897,12 +1582,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1915,12 +1597,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1933,12 +1612,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1951,12 +1627,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1969,12 +1642,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -1987,12 +1657,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2005,12 +1672,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2023,12 +1687,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2041,12 +1702,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2059,12 +1717,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2077,12 +1732,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2095,12 +1747,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2113,12 +1762,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2131,12 +1777,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2149,12 +1792,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2167,12 +1807,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2185,12 +1822,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2203,12 +1837,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2221,12 +1852,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2239,12 +1867,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2257,12 +1882,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2275,12 +1897,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2293,12 +1912,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2311,12 +1927,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="from-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-right;
           animation-name: sa-from-right;
 }
@@ -2329,12 +1942,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2347,12 +1957,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2365,12 +1972,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2383,12 +1987,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2401,12 +2002,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2419,12 +2017,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2437,12 +2032,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2455,12 +2047,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2473,12 +2062,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2491,12 +2077,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2509,12 +2092,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2527,12 +2107,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2545,12 +2122,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2563,12 +2137,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2581,12 +2152,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2599,12 +2167,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2617,12 +2182,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2635,12 +2197,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2653,12 +2212,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2671,12 +2227,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2689,12 +2242,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2707,12 +2257,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2725,12 +2272,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2743,12 +2287,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2761,12 +2302,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2779,12 +2317,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2797,12 +2332,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2815,12 +2347,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2833,12 +2362,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2851,12 +2377,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2869,12 +2392,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2887,12 +2407,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2905,12 +2422,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2923,12 +2437,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2941,12 +2452,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2959,12 +2467,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2977,12 +2482,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -2995,12 +2497,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3013,12 +2512,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3031,12 +2527,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3049,12 +2542,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3067,12 +2557,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3085,12 +2572,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3103,12 +2587,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3121,12 +2602,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3139,12 +2617,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3157,12 +2632,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3175,12 +2647,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3193,12 +2662,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3211,12 +2677,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3229,12 +2692,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3247,12 +2707,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3265,12 +2722,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3283,12 +2737,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3301,12 +2752,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3319,12 +2767,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3337,12 +2782,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3355,12 +2797,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3373,12 +2812,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3391,12 +2827,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="from-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-top;
           animation-name: sa-from-top;
 }
@@ -3409,12 +2842,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3427,12 +2857,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3445,12 +2872,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3463,12 +2887,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3481,12 +2902,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3499,12 +2917,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3517,12 +2932,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3535,12 +2947,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3553,12 +2962,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3571,12 +2977,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3589,12 +2992,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3607,12 +3007,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3625,12 +3022,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3643,12 +3037,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3661,12 +3052,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3679,12 +3067,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3697,12 +3082,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3715,12 +3097,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3733,12 +3112,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3751,12 +3127,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3769,12 +3142,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3787,12 +3157,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3805,12 +3172,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3823,12 +3187,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3841,12 +3202,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3859,12 +3217,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3877,12 +3232,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3895,12 +3247,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3913,12 +3262,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3931,12 +3277,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3949,12 +3292,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3967,12 +3307,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -3985,12 +3322,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4003,12 +3337,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4021,12 +3352,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4039,12 +3367,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4057,12 +3382,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4075,12 +3397,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4093,12 +3412,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4111,12 +3427,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4129,12 +3442,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4147,12 +3457,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4165,12 +3472,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4183,12 +3487,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4201,12 +3502,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4219,12 +3517,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4237,12 +3532,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4255,12 +3547,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4273,12 +3562,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4291,12 +3577,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4309,12 +3592,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4327,12 +3607,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4345,12 +3622,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4363,12 +3637,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4381,12 +3652,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4399,12 +3667,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4417,12 +3682,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4435,12 +3697,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4453,12 +3712,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4471,12 +3727,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="from-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-from-bottom;
           animation-name: sa-from-bottom;
 }
@@ -4489,12 +3742,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4507,12 +3757,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4525,12 +3772,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4543,12 +3787,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4561,12 +3802,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4579,12 +3817,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4597,12 +3832,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4615,12 +3847,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4633,12 +3862,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4651,12 +3877,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4669,12 +3892,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4687,12 +3907,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4705,12 +3922,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4723,12 +3937,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4741,12 +3952,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4759,12 +3967,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4777,12 +3982,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4795,12 +3997,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4813,12 +4012,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4831,12 +4027,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4849,12 +4042,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4867,12 +4057,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4885,12 +4072,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4903,12 +4087,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4921,12 +4102,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4939,12 +4117,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4957,12 +4132,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4975,12 +4147,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -4993,12 +4162,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5011,12 +4177,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5029,12 +4192,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5047,12 +4207,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5065,12 +4222,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5083,12 +4237,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5101,12 +4252,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5119,12 +4267,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5137,12 +4282,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5155,12 +4297,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5173,12 +4312,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5191,12 +4327,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5209,12 +4342,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5227,12 +4357,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5245,12 +4372,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5263,12 +4387,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5281,12 +4402,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5299,12 +4417,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5317,12 +4432,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5335,12 +4447,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5353,12 +4462,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5371,12 +4477,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5389,12 +4492,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5407,12 +4507,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5425,12 +4522,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5443,12 +4537,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5461,12 +4552,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5479,12 +4567,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5497,12 +4582,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5515,12 +4597,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5533,12 +4612,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5551,12 +4627,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="flip-top"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-top;
           animation-name: sa-flip-top;
 }
@@ -5569,12 +4642,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5587,12 +4657,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5605,12 +4672,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5623,12 +4687,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5641,12 +4702,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5659,12 +4717,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5677,12 +4732,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5695,12 +4747,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5713,12 +4762,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5731,12 +4777,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5749,12 +4792,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5767,12 +4807,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5785,12 +4822,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5803,12 +4837,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5821,12 +4852,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5839,12 +4867,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5857,12 +4882,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5875,12 +4897,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5893,12 +4912,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5911,12 +4927,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5929,12 +4942,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5947,12 +4957,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5965,12 +4972,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -5983,12 +4987,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6001,12 +5002,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6019,12 +5017,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6037,12 +5032,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6055,12 +5047,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6073,12 +5062,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6091,12 +5077,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6109,12 +5092,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6127,12 +5107,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6145,12 +5122,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6163,12 +5137,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6181,12 +5152,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6199,12 +5167,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6217,12 +5182,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6235,12 +5197,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6253,12 +5212,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6271,12 +5227,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6289,12 +5242,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6307,12 +5257,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6325,12 +5272,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6343,12 +5287,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6361,12 +5302,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6379,12 +5317,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6397,12 +5332,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6415,12 +5347,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6433,12 +5362,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6451,12 +5377,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6469,12 +5392,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6487,12 +5407,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6505,12 +5422,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6523,12 +5437,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6541,12 +5452,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6559,12 +5467,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6577,12 +5482,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6595,12 +5497,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6613,12 +5512,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6631,12 +5527,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="flip-right"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-right;
           animation-name: sa-flip-right;
 }
@@ -6649,12 +5542,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6667,12 +5557,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6685,12 +5572,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6703,12 +5587,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6721,12 +5602,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6739,12 +5617,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6757,12 +5632,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6775,12 +5647,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6793,12 +5662,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6811,12 +5677,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6829,12 +5692,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6847,12 +5707,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6865,12 +5722,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6883,12 +5737,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6901,12 +5752,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6919,12 +5767,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6937,12 +5782,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6955,12 +5797,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6973,12 +5812,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -6991,12 +5827,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7009,12 +5842,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7027,12 +5857,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7045,12 +5872,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7063,12 +5887,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7081,12 +5902,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7099,12 +5917,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7117,12 +5932,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7135,12 +5947,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7153,12 +5962,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7171,12 +5977,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7189,12 +5992,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7207,12 +6007,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7225,12 +6022,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7243,12 +6037,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7261,12 +6052,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7279,12 +6067,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7297,12 +6082,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7315,12 +6097,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7333,12 +6112,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7351,12 +6127,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7369,12 +6142,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7387,12 +6157,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7405,12 +6172,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7423,12 +6187,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7441,12 +6202,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7459,12 +6217,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7477,12 +6232,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7495,12 +6247,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7513,12 +6262,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7531,12 +6277,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7549,12 +6292,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7567,12 +6307,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7585,12 +6322,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7603,12 +6337,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7621,12 +6352,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7639,12 +6367,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7657,12 +6382,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7675,12 +6397,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7693,12 +6412,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7711,12 +6427,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="flip-bottom"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-bottom;
           animation-name: sa-flip-bottom;
 }
@@ -7729,12 +6442,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7747,12 +6457,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7765,12 +6472,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7783,12 +6487,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7801,12 +6502,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7819,12 +6517,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7837,12 +6532,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7855,12 +6547,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7873,12 +6562,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7891,12 +6577,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7909,12 +6592,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7927,12 +6607,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7945,12 +6622,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7963,12 +6637,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7981,12 +6652,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -7999,12 +6667,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8017,12 +6682,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8035,12 +6697,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8053,12 +6712,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8071,12 +6727,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8089,12 +6742,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8107,12 +6757,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8125,12 +6772,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8143,12 +6787,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8161,12 +6802,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8179,12 +6817,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8197,12 +6832,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8215,12 +6847,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8233,12 +6862,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8251,12 +6877,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8269,12 +6892,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8287,12 +6907,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8305,12 +6922,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8323,12 +6937,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8341,12 +6952,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8359,12 +6967,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8377,12 +6982,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8395,12 +6997,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8413,12 +7012,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8431,12 +7027,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8449,12 +7042,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8467,12 +7057,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8485,12 +7072,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8503,12 +7087,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8521,12 +7102,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8539,12 +7117,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8557,12 +7132,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8575,12 +7147,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8593,12 +7162,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8611,12 +7177,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8629,12 +7192,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8647,12 +7207,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8665,12 +7222,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8683,12 +7237,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8701,12 +7252,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8719,12 +7267,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8737,12 +7282,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8755,12 +7297,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8773,12 +7312,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8791,12 +7327,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="flip-left"].show {
-  opacity: 1;
   -webkit-animation-name: sa-flip-left;
           animation-name: sa-flip-left;
 }
@@ -8809,12 +7342,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8827,12 +7357,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8845,12 +7372,9 @@
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="500"][data-sa-delay="500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8863,12 +7387,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8881,12 +7402,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8899,12 +7417,9 @@
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1000"][data-sa-delay="1000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8917,12 +7432,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8935,12 +7447,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="1500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8953,12 +7462,9 @@
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="1500"][data-sa-delay="1500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8971,12 +7477,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -8989,12 +7492,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9007,12 +7507,9 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2000"][data-sa-delay="2000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9025,12 +7522,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9043,12 +7537,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="2500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9061,12 +7552,9 @@
   -webkit-animation-delay: 2500ms;
           animation-delay: 2500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="2500"][data-sa-delay="2500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9079,12 +7567,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9097,12 +7582,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9115,12 +7597,9 @@
   -webkit-animation-delay: 3000ms;
           animation-delay: 3000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3000"][data-sa-delay="3000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9133,12 +7612,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9151,12 +7627,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="3500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9169,12 +7642,9 @@
   -webkit-animation-delay: 3500ms;
           animation-delay: 3500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="3500"][data-sa-delay="3500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9187,12 +7657,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9205,12 +7672,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9223,12 +7687,9 @@
   -webkit-animation-delay: 4000ms;
           animation-delay: 4000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4000"][data-sa-delay="4000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9241,12 +7702,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9259,12 +7717,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="4500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9277,12 +7732,9 @@
   -webkit-animation-delay: 4500ms;
           animation-delay: 4500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="4500"][data-sa-delay="4500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9295,12 +7747,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9313,12 +7762,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9331,12 +7777,9 @@
   -webkit-animation-delay: 5000ms;
           animation-delay: 5000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5000"][data-sa-delay="5000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9349,12 +7792,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9367,12 +7807,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="5500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9385,12 +7822,9 @@
   -webkit-animation-delay: 5500ms;
           animation-delay: 5500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="5500"][data-sa-delay="5500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9403,12 +7837,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9421,12 +7852,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9439,12 +7867,9 @@
   -webkit-animation-delay: 6000ms;
           animation-delay: 6000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6000"][data-sa-delay="6000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9457,12 +7882,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9475,12 +7897,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="6500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9493,12 +7912,9 @@
   -webkit-animation-delay: 6500ms;
           animation-delay: 6500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="6500"][data-sa-delay="6500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9511,12 +7927,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9529,12 +7942,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9547,12 +7957,9 @@
   -webkit-animation-delay: 7000ms;
           animation-delay: 7000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7000"][data-sa-delay="7000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9565,12 +7972,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9583,12 +7987,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="7500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9601,12 +8002,9 @@
   -webkit-animation-delay: 7500ms;
           animation-delay: 7500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="7500"][data-sa-delay="7500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9619,12 +8017,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9637,12 +8032,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9655,12 +8047,9 @@
   -webkit-animation-delay: 8000ms;
           animation-delay: 8000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8000"][data-sa-delay="8000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9673,12 +8062,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9691,12 +8077,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="8500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9709,12 +8092,9 @@
   -webkit-animation-delay: 8500ms;
           animation-delay: 8500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="8500"][data-sa-delay="8500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9727,12 +8107,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9745,12 +8122,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9763,12 +8137,9 @@
   -webkit-animation-delay: 9000ms;
           animation-delay: 9000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9000"][data-sa-delay="9000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9781,12 +8152,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9799,12 +8167,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="9500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9817,12 +8182,9 @@
   -webkit-animation-delay: 9500ms;
           animation-delay: 9500ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="9500"][data-sa-delay="9500"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9835,12 +8197,9 @@
   -webkit-animation-delay: 0;
           animation-delay: 0;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9853,12 +8212,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-delay="10000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
@@ -9871,12 +8227,9 @@
   -webkit-animation-delay: 10000ms;
           animation-delay: 10000ms;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
 }
 
 [data-sa][data-sa-duration="10000"][data-sa-delay="10000"][data-sa="scale"].show {
-  opacity: 1;
   -webkit-animation-name: sa-scale;
           animation-name: sa-scale;
 }
