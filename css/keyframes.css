@@ -2,10 +2,12 @@
   0% {
     -webkit-transform: translate(-200px, 0);
             transform: translate(-200px, 0);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -13,10 +15,12 @@
   0% {
     -webkit-transform: translate(-200px, 0);
             transform: translate(-200px, 0);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -24,10 +28,12 @@
   0% {
     -webkit-transform: translate(200px, 0);
             transform: translate(200px, 0);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -35,10 +41,12 @@
   0% {
     -webkit-transform: translate(200px, 0);
             transform: translate(200px, 0);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -46,10 +54,12 @@
   0% {
     -webkit-transform: translate(0, -200px);
             transform: translate(0, -200px);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -57,10 +67,12 @@
   0% {
     -webkit-transform: translate(0, -200px);
             transform: translate(0, -200px);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -68,10 +80,12 @@
   0% {
     -webkit-transform: translate(0, 200px);
             transform: translate(0, 200px);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -79,10 +93,12 @@
   0% {
     -webkit-transform: translate(0, 200px);
             transform: translate(0, 200px);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
+    opacity: 1;
   }
 }
 
@@ -90,10 +106,12 @@
   0% {
     -webkit-transform: rotateX(90deg);
             transform: rotateX(90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateX(0);
             transform: rotateX(0);
+    opacity: 1;
   }
 }
 
@@ -101,10 +119,12 @@
   0% {
     -webkit-transform: rotateX(90deg);
             transform: rotateX(90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateX(0);
             transform: rotateX(0);
+    opacity: 1;
   }
 }
 
@@ -112,10 +132,12 @@
   0% {
     -webkit-transform: rotateX(-90deg);
             transform: rotateX(-90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateX(0);
             transform: rotateX(0);
+    opacity: 1;
   }
 }
 
@@ -123,10 +145,12 @@
   0% {
     -webkit-transform: rotateX(-90deg);
             transform: rotateX(-90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateX(0);
             transform: rotateX(0);
+    opacity: 1;
   }
 }
 
@@ -134,10 +158,12 @@
   0% {
     -webkit-transform: rotateY(90deg);
             transform: rotateY(90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
             transform: rotateY(0);
+    opacity: 1;
   }
 }
 
@@ -145,10 +171,12 @@
   0% {
     -webkit-transform: rotateY(90deg);
             transform: rotateY(90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
             transform: rotateY(0);
+    opacity: 1;
   }
 }
 
@@ -156,10 +184,12 @@
   0% {
     -webkit-transform: rotateY(-90deg);
             transform: rotateY(-90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
             transform: rotateY(0);
+    opacity: 1;
   }
 }
 
@@ -167,10 +197,12 @@
   0% {
     -webkit-transform: rotateY(-90deg);
             transform: rotateY(-90deg);
+    opacity: 0;
   }
   100% {
     -webkit-transform: rotateY(0);
             transform: rotateY(0);
+    opacity: 1;
   }
 }
 
@@ -178,6 +210,7 @@
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
+    opacity: 0;
   }
   70% {
     -webkit-transform: scale(1.5);
@@ -186,6 +219,7 @@
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -193,6 +227,7 @@
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
+    opacity: 0;
   }
   70% {
     -webkit-transform: scale(1.5);
@@ -201,6 +236,7 @@
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=keyframes.css.map */
