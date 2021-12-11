@@ -1,13 +1,34 @@
 window.onscroll = function() {headerFunction()};
 
-let header = document.querySelector("header"),
-    sticky = header.offsetTop;
+const header = document.querySelector("header");
+const sticky = header.offsetTop;
 
 
 function headerFunction() {
     if (window.pageYOffset > sticky) {
-    header.classList.add("fix");
+        header.classList.add("fix");
     } else {
-    header.classList.remove("fix");
+        header.classList.remove("fix");
     }
 }
+
+
+(() => {
+    const mainText = document.querySelector('.mainText');
+    let count = mainText.children.length + 1;
+    
+    setInterval(() => {
+        let height = mainText.offsetHeight;
+
+        if(count === 1) {
+            count++;
+        } else {
+            count--;
+        }
+        
+        height = (height * count)- height;
+        mainText.style.transform = `translateY(-${height}px)`;
+
+        console.log(height, count)
+    }, 4000);
+})()
