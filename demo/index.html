@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ppotatoG/sa/css/sa.css"> -->
     <link rel="stylesheet" href="../css/sa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="wrap">
@@ -24,62 +27,76 @@
         <div class="contents">
 
             <section id="main">
-                <h2>
-                    <span data-sa="from-left">Easy and simple scroll animation.</span>
+                <h2>[
+                    <ul class="mainText">
+                        <li>Easy</li>
+                        <li>Simple</li>
+                    </ul>
+                    ] 
+                    Scroll Animation
                 </h2>
             </section>
 
-            <section id="from">
-                <div data-sa="from-left" class="box" data-sa-delay="2000" >
+            <section id="form">
+                <div class="box" data-sa="from-left">
                     <code>
                         data-sa="from-left"
-                        <br>data-sa-delay="2000"
                     </code>
                 </div>
-                <div data-sa="from-right" data-sa-once="false" class="box">
+                
+                <div class="box" data-sa="from-right">
                     <code>
                         data-sa="from-right"
-                        <br>data-sa-once="false"
                     </code>
                 </div>
-                <div data-sa="from-top" class="box" data-sa-duration="3500">
+                
+                <div class="box" data-sa="from-top">
                     <code>
                         data-sa="from-top"
-                        <br>data-sa-duration="1500"
                     </code>
                 </div>
-                <div data-sa="from-bottom" class="box">
+                
+                <div class="box" data-sa="from-bottom">
                     <code>
                         data-sa="from-bottom"
                     </code>
                 </div>
-                <div data-sa="flip-top" class="box" data-sa-once="false" data-sa-delay="2000">
+
+                <div class="box" data-sa="flip-left">
                     <code>
-                        data-sa="flip-top"
-                        <br>data-sa-once="false"
-                        <br>data-sa-delay="2000"
+                        data-sa="flip-left"
                     </code>
                 </div>
+                
+                <div class="box" data-sa="flip-right">
+                    <code>
+                        data-sa="flip-right"
+                    </code>
+                </div>
+                
+                <div class="box" data-sa="flip-top">
+                    <code>
+                        data-sa="flip-top"
+                    </code>
+                </div>
+                
+                <div class="box" data-sa="flip-bottom">
+                    <code>
+                        data-sa="flip-bottom"
+                    </code>
+                </div>
+
+                <div class="box" data-sa="scale">
+                    <code>
+                        data-sa="scale"
+                    </code>
+                </div>
+
                 <div data-sa="flip-bottom" class="box" data-sa-delay="3000" data-sa-duration="5000">
                     <code>
                         data-sa="flip-bottom"
                         <br>data-sa-delay="3000" 
                         <br>data-sa-duration="5000"
-                    </code>
-                </div>
-                <div data-sa="flip-left" class="box">
-                    <code>
-                        data-sa="flip-left"
-                    </code>
-                </div>
-                <div data-sa="flip-right" class="box">
-                    <code>
-                        data-sa="flip-right"
-                    </code>
-                </div>
-                <div data-sa="scale" class="box">
-                    <code>
-                        data-sa="scale"
                     </code>
                 </div>
             </section>
