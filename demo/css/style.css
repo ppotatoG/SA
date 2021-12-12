@@ -111,8 +111,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 4rem;
-  line-height: 4rem;
+  height: 5rem;
+  line-height: 5rem;
 }
 
 .contents #main h2 ul.mainText {
@@ -136,6 +136,7 @@
   max-height: 250px;
   border: solid 10px rgba(0, 0, 0, 0.7);
   margin: 20vw auto 0;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,6 +147,8 @@
       -ms-flex-align: center;
           align-items: center;
   background: rgba(221, 221, 221, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .box:first-child {
@@ -155,13 +158,12 @@
 .box code {
   color: #fff;
   font-weight: 500;
-  letter-spacing: 2px;
 }
 
 footer {
   padding: 5vh;
   text-align: center;
-  background: #000;
   color: #fff;
+  background: #000;
 }
 /*# sourceMappingURL=style.css.map */
