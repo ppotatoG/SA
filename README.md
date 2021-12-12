@@ -18,7 +18,7 @@ javascript
 <script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa@0834b78/js/sa.js"></script>
 ```
 
-### type
+## Type
 ```html
 <div data-sa="from-left">from-left</div>
 <div data-sa="from-right">from-right</div>
@@ -31,17 +31,9 @@ javascript
 <div data-sa="scale">scale</div>
 ```
 
-### property
+## Property
 
-- `data-sa-*`로 사용합니다
-
-- `offset`은 `-position`에 사용 가능하며, 단위까지 설정 가능합니다.
-
-- `delay`의 기본값은 0이며, 500ms부터 500단위로 10000ms까지 가능합니다.
-
-- `duration`의 기본값은 1000이며, 500ms부터 500단위로 10000ms까지 가능합니다.
-
-- `once`의 기본값은 true이며, boolean입니다.
+모든 속성은 `data-sa-*`로 사용합니다.
 
 ```html
 <div
@@ -52,3 +44,42 @@ javascript
 >
 </div>
 ```
+
+### data-sa-offset
+```html
+<div data-sa-offset="100px"></div>
+```
+`data-sa-n-position`에 사용 가능합니다. (from-left, flip-top, ...)
+
+해당 앨리먼트가 `n만큼 먼 곳에서부터 애니메이션이 실행`됩니다.
+
+`기본값은 100px`이며, 단위를 포함한 문자열로 들어와야 합니다.
+
+### data-sa-delay
+```html
+<div data-sa-delay="1500"></div>
+```
+
+해당 앨리먼트의 애니메이션이 `n초 후 실행`됩니다.
+
+`기본값은 0`이며, 500부터 10000까지 가능합니다.
+
+`숫자형`으로 들어와야 하며, 단위는 `ms`입니다.
+
+### data-sa-duration
+```html
+<div data-sa-duration="2000"></div>
+```
+해당 앨리먼트의 애니메이션이 `n초동안 지속`됩니다.
+
+`기본값은 1000`이며, 500부터 10000까지 가능합니다.
+
+`숫자형`으로 들어와야 하며, 단위는 `ms`입니다.
+
+### data-sa-once
+```html
+<div data-sa-once="true"></div>
+```
+해당 앨리먼트의 애니메이션이 스크롤에 따라 `반복`됩니다.
+
+`기본값은 true`이며, `boolean`입니다.
