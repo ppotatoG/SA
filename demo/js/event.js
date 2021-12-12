@@ -12,23 +12,22 @@ function headerFunction() {
     }
 }
 
-
 (() => {
     const mainText = document.querySelector('.mainText');
-    let count = mainText.children.length + 1;
+    const mainTextArr = ['easy', 'simple'];
     
-    setInterval(() => {
-        let height = mainText.offsetHeight;
-
-        if(count === 1) {
-            count++;
-        } else {
-            count--;
-        }
+    mainTextArr.forEach((val) => {
+        const li = document.createElement('li');
+        li.innerText = `[ ${val} ]`;
         
-        height = (height * count)- height;
-        mainText.style.transform = `translateY(-${height}px)`;
+        mainText.appendChild(li);
+    });
+    
+    let count = 0;
+    let height = mainText.offsetHeight;
 
-        console.log(height, count)
+    setInterval(() => {
+        count <= 0 ? count++ : count --;    
+        mainText.style.transform = `translateY(-${height * count}px)`;
     }, 4000);
-})()
+})();
