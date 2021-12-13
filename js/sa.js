@@ -15,14 +15,15 @@ window.addEventListener('scroll', () => {
     }
 });
 
-function saStyleSet(saNode){
+const saStyleSet = (saNode) => {
     const match = saNode.dataset.sa.match(/from-(.*)/);
 
     if(match) { 
         const from = match[1];
-        const offset = saNode.dataset.saOffset;
+        let offset = saNode.dataset.saOffset;
 
-        if(offset) {
+        if(offset){
+            Number(offset) ? offset += 'px' : offset;
             switch(from) {
                 case 'top' :
                     saNode.style.transform = `translate(0, -${offset})`;
