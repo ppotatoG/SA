@@ -47,13 +47,15 @@ javascript
 
 ### data-sa-offset
 ```html
-<div data-sa-offset="100px"></div>
+<div data-sa-offset="10vh"></div>
 ```
 `data-sa-n-position`에 사용 가능합니다. (from-left, flip-top, ...)
 
 해당 앨리먼트가 `n만큼 먼 곳에서부터 애니메이션이 실행`됩니다.
 
-`기본값은 100px`이며, 단위를 포함한 문자열로 들어와야 합니다.
+`기본값은 100px`이며, 숫자형으로 들어오면 `px`로 사용됩니다.
+
+문자열로 추가할 수 있습니다 (data-sa-offset="10vh")
 
 ### data-sa-delay
 ```html
