@@ -15,7 +15,7 @@ css
 
 javascript
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa@0834b78/js/sa.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa@3c5687d/js/sa.js"></script>
 ```
 
 ## Type
