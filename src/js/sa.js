@@ -1,4 +1,6 @@
-window.addEventListener('scroll', () => {
+import '../sass/sa.scss';
+
+const scrollEventHandler = () => {
     const saNodes = document.querySelectorAll("[data-sa]");
     const point = window.innerHeight;
     for ( const saNode of saNodes){
@@ -13,7 +15,7 @@ window.addEventListener('scroll', () => {
             
         }
     }
-});
+};
 
 const saStyleSet = (saNode) => {
     const match = saNode.dataset.sa.match(/from-(.*)/);
@@ -40,4 +42,9 @@ const saStyleSet = (saNode) => {
             }
         }
     }    
+}
+
+export const initHandler = () => {
+    window.removeEventListener('scroll', scrollEventHandler);
+    window.addEventListener('scroll', scrollEventHandler);
 }

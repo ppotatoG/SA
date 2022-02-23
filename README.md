@@ -10,12 +10,20 @@
 
 css
 ```html
-<link href="https://cdn.jsdelivr.net/gh/ppotatoG/sa@0834b78/css/sa.css">
+<link href="https://cdn.jsdelivr.net/gh/ppotatoG/sa/dist/sa.css">
 ```
 
 javascript
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa@3c5687d/js/sa.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa/dist/sa.js"></script>
+```
+
+## Initialize
+
+아래 내용들을 적용하려면 최초 초기화 함수를 호출해야 합니다.
+또는 동적으로 엘리먼트를 생성 했을 때 적용시키기 위해 호출해도 됩니다.
+```js
+SA.initHandler();
 ```
 
 ## Type
@@ -53,7 +61,7 @@ javascript
 
 해당 앨리먼트가 `n만큼 먼 곳에서부터 애니메이션이 실행`됩니다.
 
-`기본값은 100px`이며, 숫자형으로 들어오면 `px`로 사용됩니다.
+기본값은 `100px`이며, 숫자형으로 들어오면 `px`로 사용됩니다.
 
 문자열로 추가할 수 있습니다 (data-sa-offset="10vh")
 
@@ -64,7 +72,7 @@ javascript
 
 해당 앨리먼트의 애니메이션이 `n초 후 실행`됩니다.
 
-`기본값은 0`이며, 500부터 10000까지 가능합니다.
+기본값은 `0`이며, 500부터 10000까지 가능합니다.
 
 `숫자형`으로 들어와야 하며, 단위는 `ms`입니다.
 
@@ -74,7 +82,7 @@ javascript
 ```
 해당 앨리먼트의 애니메이션이 `n초동안 지속`됩니다.
 
-`기본값은 1000`이며, 500부터 10000까지 가능합니다.
+기본값은 `1000`이며, 500부터 10000까지 가능합니다.
 
 `숫자형`으로 들어와야 하며, 단위는 `ms`입니다.
 
@@ -84,4 +92,4 @@ javascript
 ```
 해당 앨리먼트의 애니메이션이 스크롤에 따라 `반복`됩니다.
 
-`기본값은 true`이며, `boolean`입니다.
+기본값은 `true`이며, `boolean`입니다.
