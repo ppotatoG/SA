@@ -21,13 +21,10 @@
     @each $item in $name {
         @for $i from 1 through 20{
             &[data-sa-duration = "#{$i*500}"] {
-                @include animation-mixin($item, #{$i*500}ms, 0);            
+                animation-duration: #{$i*500}ms;
             }
             &[data-sa-delay = "#{$i*500}"] {
-                @include animation-mixin($item, 0, #{$i*500}ms);            
-            }
-            &[data-sa-duration = "#{$i*500}"][data-sa-delay = "#{$i*500}"] {
-                @include animation-mixin($item, #{$i*500}ms, #{$i*500}ms);            
+                animation-delay: #{$i*500}ms;
             }
         }
     }
