@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
-import './index.css';
+import Header from './Header';
+import Contents from './Contents';
+
+import './style.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<Header />
+		<Contents />
+	</React.StrictMode>,
+	document.getElementById('wrap')
 );
