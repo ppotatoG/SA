@@ -1,17 +1,3 @@
-window.onscroll = function() {headerFunction()};
-
-const header = document.querySelector("header");
-const sticky = header.offsetTop;
-
-
-function headerFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("fix");
-    } else {
-        header.classList.remove("fix");
-    }
-}
-
 (() => {
     const mainText = document.querySelector('.mainText');
     const mainTextArr = ['easy', 'simple'];
@@ -23,12 +9,27 @@ function headerFunction() {
         mainText.appendChild(li);
     });
     
-    let count = 0;
-    let height = mainText.offsetHeight;
+    const height = mainText.offsetHeight;
+    let flag = false;
+    let i = 1;
 
     setInterval(() => {
-        count <= 0 ? count++ : count --;    
-        mainText.style.transform = `translateY(-${height * count}px)`;
+        mainText.style.transform = `translateY(-${height * i}px)`;
+        if ( flag ) {
+            if ( i === 0 ) {
+                flag = false;
+                i++;
+                return;
+            }
+            i--;
+        } else {
+            if ( i === mainTextArr.length - 1 ) {
+                flag = true;
+                i--;
+                return;
+            }
+            i++;
+        }
     }, 4000);
 
     const boxs = document.querySelectorAll('#form .box');
@@ -47,3 +48,14 @@ function headerFunction() {
         box.appendChild(code);
     })
 })();
+
+const header = document.querySelector("header");
+const sticky = header.offsetTop;
+
+document.addEventListener('scroll', () => {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("fix");
+    } else {
+        header.classList.remove("fix");
+    }
+})
