@@ -2,11 +2,14 @@
     const mainText = document.querySelector('.mainText');
     const mainTextArr = ['easy', 'simple'];
     
+    const mainTextUl = document.createElement('ul');
+    mainText.appendChild(mainTextUl);
+
     mainTextArr.forEach((val) => {
         const li = document.createElement('li');
-        li.innerText = `[ ${val} ]`;
+        li.innerText = `${val}`;
         
-        mainText.appendChild(li);
+        mainTextUl.appendChild(li);
     });
     
     const height = mainText.offsetHeight;
@@ -14,7 +17,7 @@
     let i = 1;
 
     setInterval(() => {
-        mainText.style.transform = `translateY(-${height * i}px)`;
+        mainTextUl.style.transform = `translateY(-${height * i}px)`;
         if ( flag ) {
             if ( i === 0 ) {
                 flag = false;

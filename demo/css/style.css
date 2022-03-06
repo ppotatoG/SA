@@ -3,7 +3,6 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  color: #1f1f1f;
   font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -102,31 +101,37 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #fff;
 }
 
 .contents #main h2 {
-  color: #fff;
   font-size: 4rem;
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 5rem;
-  line-height: 5rem;
 }
 
-.contents #main h2 ul.mainText {
+.contents #main h2 .mainText {
+  height: 5rem;
+  line-height: 5rem;
+  overflow: hidden;
+  padding: 0 1vw;
+}
+
+.contents #main h2 .mainText ul {
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
-  padding: 0 1vw;
 }
 
-.contents #main h2 ul.mainText li {
-  color: #fff;
+.contents #main h2 .mainText ul li {
   text-align: center;
   text-transform: uppercase;
+}
+
+.contents #main h2 p {
+  line-height: 5rem;
 }
 
 .box {

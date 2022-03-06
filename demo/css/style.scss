@@ -5,7 +5,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    color: rgb(31, 31, 31);
     font-family: 'Noto Sans KR', sans-serif;
 }
 #wrap {
@@ -78,23 +77,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #fff;
         h2 {
-            color: #fff;
             font-size: 4rem;
-            overflow: hidden;
             display: flex;
-            height: 5rem;
-            line-height: 5rem;
-            ul.mainText {
-                transition: transform .2s;
+            .mainText {
+                height: 5rem;
+                line-height: 5rem;
+                overflow: hidden;
                 padding: 0 1vw;
-                li {
-                    color: #fff;
-                    text: {
-                        align: center;
-                        transform: uppercase;
+                ul {
+                    transition: transform .2s;
+                    li {
+                        text: {
+                            align: center;
+                            transform: uppercase;
+                        }
                     }
                 }
+            }
+            p {
+                line-height: 5rem;
             }
         }
     }
