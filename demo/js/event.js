@@ -1,3 +1,70 @@
+const creatdBoxs = () => {
+    const boxData = [
+        {'data-sa': 'fade'},
+        {'data-sa': 'from-right'},
+        {'data-sa': 'from-top'},
+        {'data-sa': 'from-bottom'},
+        {'data-sa': 'from-left'},
+        {'data-sa': 'flip-right'},
+        {'data-sa': 'flip-top'},
+        {'data-sa': 'flip-bottom'},
+        {'data-sa': 'flip-left'},
+        {'data-sa': 'scale'},
+        {
+            'data-sa': 'from-top',
+            'data-sa-duration': '2500'
+        },
+        {
+            'data-sa': 'from-bottom',
+            'data-sa-delay': '1000'
+        },
+        {
+            'data-sa': 'flip-left',
+            'data-sa-once': 'false',
+            'data-sa-offset': '50vw'
+        },
+        {
+            'data-sa': 'scale',
+            'data-sa-offset': '500',
+            'data-sa-duration': '5000'
+        },
+        {
+            'data-sa': 'fade',
+            'data-sa-duration': '1500',
+            'data-sa-delay': '500'
+        },
+    ];
+
+    const boxWrap = document.querySelector('#box_wrap');
+
+    boxData.forEach((data) => {
+        const boxDataLists = Object.entries({...data});
+        const div = document.createElement('div');
+        div.classList.add('box');
+
+        boxDataLists.map((boxDataList) => {
+            let dataName = boxDataList[0].slice(5);
+            if((/-/).test(dataName)) {
+                dataName = dataName.split('-');
+                dataName = dataName[0] + dataName[1][0].toUpperCase() + dataName[1].slice(1);
+            }
+
+            const dataValue = boxDataList[1];
+
+            div.dataset[dataName] = dataValue;
+        })
+        
+        const pre = document.createElement('pre');
+        boxDataLists.map((boxDataList) => {
+            pre.innerHTML += `${boxDataList[0]}="${boxDataList[1]}"\n`;
+        })
+        
+        div.appendChild(pre);
+
+        boxWrap.appendChild(div);
+    });
+};
+
 (() => {
     const mainText = document.querySelector('.mainText');
     const mainTextArr = ['easy', 'simple'];
@@ -35,21 +102,7 @@
         }
     }, 4000);
 
-    const boxs = document.querySelectorAll('#form .box');
-    
-    boxs.forEach((box) => {
-        const datasetList = Object.entries({...box.dataset});
-
-        const code = document.createElement('code');
-        datasetList.map((val) => {
-            if (val[0].match(/sa/)) {
-                console.log()
-                code.innerHTML += `data-${val[0]}="${val[1]}"<br>`;
-            }
-        })
-
-        box.appendChild(code);
-    })
+    creatdBoxs();
 })();
 
 const header = document.querySelector("header");
