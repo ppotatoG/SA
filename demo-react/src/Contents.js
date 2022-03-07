@@ -37,16 +37,10 @@ function Contents() {
 
 	const box = boxs.map((box, boxIdx) => {
 		return (		
-			<div 
-				className="box" key={boxIdx}
-				// data={Object.entries(box).map(val => val[0])}
-				// data-sa='fade'
-				// {
-				// 	...Object.entries(box).map((val, idx) => {
-				// 		console.log(val[0], val[1], idx)
-				// 		return val[0]
-				// 	})
-				// }
+			<div  
+				className="box" 
+				key={boxIdx}
+				{...box}
 			>
 				<pre>
 					{
