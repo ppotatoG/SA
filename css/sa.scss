@@ -15,7 +15,7 @@
     $name: 'fade', 'from-left', 'from-right', 'from-top', 'from-bottom', 'flip-top', 'flip-right', 'flip-bottom', 'flip-left', 'scale';
     
     @each $item in $name {
-        @include animation-mixin($item, 1000ms, 0);
+        @include animation-mixin($item, 1000ms, 0ms);
     }
 
     @each $item in $name {
@@ -26,6 +26,15 @@
             &[data-sa-delay = "#{$i*500}"] {
                 animation-delay: #{$i*500}ms;
             }
+        }
+    }
+
+    $position-items : 'from-left', 'from-right', 'from-top', 'from-bottom';
+    @each $item in $position-items {
+        @for $i from 1 through 20{
+            &[data-sa = "#{$item}"][data-sa-offset = "#{$i*50}"] {
+                animation-name: sa-#{$item}-#{$i*50};
+            }        
         }
     }
 }

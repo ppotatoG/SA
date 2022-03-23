@@ -108,3 +108,32 @@
         opacity: 1;
     }
 }
+
+$positions: 'top', 'right', 'bottom', 'left';
+
+@for $i from 1 through 20{
+    @each $position in $positions {
+        @keyframes sa-from-#{$position}-#{$i*50}{
+            0% {
+                @if($position == 'left') {
+                    transform: translate(-#{$i*50+'px'}, 0);
+                }
+                @else if($position == 'right') {
+                    transform: translate(#{$i*50+'px'}, 0);
+                }
+                @else if($position == 'top') {
+                    transform: translate(0, -#{$i*50+'px'});
+                }
+                @else if($position == 'bottom') {
+                    transform: translate(0, #{$i*50+'px'});
+                }
+                opacity: 0;
+            }
+            100% {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+             
+        }
+    }
+}
