@@ -1,22 +1,31 @@
 # SA
 
-`Vanilla JS`와 `SCSS`를 사용한 스크롤 애니메이션 플러그인 입니다 (≧∇≦)ﾉ
-
 [Demo](https://ppotatog.github.io/SA/demo/)
-
-[SA 일기](https://blog.naver.com/thgus2270/222523584611)
 
 ### CDN
 
 css
 ```html
-<link href="https://cdn.jsdelivr.net/gh/ppotatoG/sa@0834b78/css/sa.css">
+<link href="https://cdn.jsdelivr.net/gh/ppotatoG/sa/css/sa.css">
 ```
 
 javascript
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa@3c5687d/js/sa.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ppotatoG/sa/js/sa.js"></script>
 ```
+
+## animation value
+|property|property-value|
+|-|-|
+|animation-name|${dataset.sa}|
+|animation-duration|1000ms|
+|animation-delay|0ms|
+|animation-direction|normal|
+|animation-iteration-count|1|
+|animation-play-state|running|
+|animation-timing-function|ease|
+|animation-fill-mode|none|
+
 
 ## Type
 ```html
@@ -29,6 +38,7 @@ javascript
 <div data-sa="flip-top">flip-top</div>
 <div data-sa="flip-bottom">flip-bottom</div>
 <div data-sa="scale">scale</div>
+<div data-sa="fade">fade</div>
 ```
 
 ## Property
@@ -37,7 +47,7 @@ javascript
 
 ```html
 <div
-    data-sa-offset="200px"
+    data-sa-offset="400"
     data-sa-delay="50"
     data-sa-duration="1000"
     data-sa-once="false"
@@ -47,24 +57,24 @@ javascript
 
 ### data-sa-offset
 ```html
-<div data-sa-offset="10vh"></div>
+<div data-sa-offset="300"></div>
 ```
-`data-sa-n-position`에 사용 가능합니다. (from-left, flip-top, ...)
+`data-sa-from-position`에 사용 가능합니다. (from-left, from-top, ...)
 
-해당 앨리먼트가 `n만큼 먼 곳에서부터 애니메이션이 실행`됩니다.
+해당 앨리먼트가 `n만큼 먼 곳에서부터` 애니메이션이 실행됩니다.
 
-`기본값은 100px`이며, 숫자형으로 들어오면 `px`로 사용됩니다.
+기본값은 `200`이며, 50부터 10000까지 가능합니다.
 
-문자열로 추가할 수 있습니다 (data-sa-offset="10vh")
+`숫자형`으로 들어와야 하며, 단위는 `px`입니다.
 
 ### data-sa-delay
 ```html
 <div data-sa-delay="1500"></div>
 ```
 
-해당 앨리먼트의 애니메이션이 `n초 후 실행`됩니다.
+앨리먼트의 애니메이션이 `n초 후 실행`됩니다.
 
-`기본값은 0`이며, 500부터 10000까지 가능합니다.
+기본값은 `0`이며, 500부터 10000까지 가능합니다.
 
 `숫자형`으로 들어와야 하며, 단위는 `ms`입니다.
 
@@ -72,9 +82,9 @@ javascript
 ```html
 <div data-sa-duration="2000"></div>
 ```
-해당 앨리먼트의 애니메이션이 `n초동안 지속`됩니다.
+앨리먼트의 애니메이션이 `n초동안 지속`됩니다.
 
-`기본값은 1000`이며, 500부터 10000까지 가능합니다.
+기본값은 `1000`이며, 500부터 10000까지 가능합니다.
 
 `숫자형`으로 들어와야 하며, 단위는 `ms`입니다.
 
@@ -82,6 +92,14 @@ javascript
 ```html
 <div data-sa-once="true"></div>
 ```
-해당 앨리먼트의 애니메이션이 스크롤에 따라 `반복`됩니다.
+앨리먼트의 애니메이션이 스크롤에 따라 `반복`됩니다.
 
-`기본값은 true`이며, `boolean`입니다.
+기본값은 `true`이며, `boolean`입니다.
+
+### data-sa-time
+```html
+<div data-sa-time="ease-out"></div>
+```
+앨리먼트에 애니메이션의 `전환방법을 변경`합니다.
+
+기본값은 `ease`이며, `['ease', 'ease-in', 'ease-out', 'ease-in-out', 'linear', 'step-start', 'step-end']` 중에서 사용 가능합니다.
