@@ -2,12 +2,12 @@
 
 @mixin animation-mixin($arr, $duration, $delay) {
     &[data-sa="#{$arr}"] {
-        animation-fill-mode: forwards;
         animation-duration: #{$duration};
         animation-delay: #{$delay};
         opacity: 0;
         &.show {
             animation-name: sa-#{$arr};
+            opacity: 1;
         }
     }
 }
@@ -37,4 +37,12 @@
             }        
         }
     }
+
+    $time-functions: 'ease', 'ease-in', 'ease-out', 'ease-in-out', 'linear', 'step-start', 'step-end';
+    @each $item in $time-functions {
+        &[data-sa-time="#{$item}"] {
+            animation-timing-function: #{$item};
+        }
+    }
+
 }
