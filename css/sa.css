@@ -1,74 +1,74 @@
 @import url(keyframes.css);
 [data-sa][data-sa="fade"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="fade"].show {
-    animation-name: sa-fade; }
+    animation-name: sa-fade;
+    opacity: 1; }
 [data-sa][data-sa="from-left"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="from-left"].show {
-    animation-name: sa-from-left; }
+    animation-name: sa-from-left;
+    opacity: 1; }
 [data-sa][data-sa="from-right"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="from-right"].show {
-    animation-name: sa-from-right; }
+    animation-name: sa-from-right;
+    opacity: 1; }
 [data-sa][data-sa="from-top"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="from-top"].show {
-    animation-name: sa-from-top; }
+    animation-name: sa-from-top;
+    opacity: 1; }
 [data-sa][data-sa="from-bottom"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="from-bottom"].show {
-    animation-name: sa-from-bottom; }
+    animation-name: sa-from-bottom;
+    opacity: 1; }
 [data-sa][data-sa="flip-top"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="flip-top"].show {
-    animation-name: sa-flip-top; }
+    animation-name: sa-flip-top;
+    opacity: 1; }
 [data-sa][data-sa="flip-right"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="flip-right"].show {
-    animation-name: sa-flip-right; }
+    animation-name: sa-flip-right;
+    opacity: 1; }
 [data-sa][data-sa="flip-bottom"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="flip-bottom"].show {
-    animation-name: sa-flip-bottom; }
+    animation-name: sa-flip-bottom;
+    opacity: 1; }
 [data-sa][data-sa="flip-left"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="flip-left"].show {
-    animation-name: sa-flip-left; }
+    animation-name: sa-flip-left;
+    opacity: 1; }
 [data-sa][data-sa="scale"] {
-  animation-fill-mode: forwards;
   animation-duration: 1000ms;
   animation-delay: 0ms;
   opacity: 0; }
   [data-sa][data-sa="scale"].show {
-    animation-name: sa-scale; }
+    animation-name: sa-scale;
+    opacity: 1; }
 [data-sa][data-sa-duration="500"] {
   animation-duration: 500ms; }
 [data-sa][data-sa-delay="500"] {
@@ -1029,5 +1029,19 @@
   animation-name: sa-from-bottom-950; }
 [data-sa][data-sa="from-bottom"][data-sa-offset="1000"] {
   animation-name: sa-from-bottom-1000; }
+[data-sa][data-sa-time="ease"] {
+  animation-timing-function: ease; }
+[data-sa][data-sa-time="ease-in"] {
+  animation-timing-function: ease-in; }
+[data-sa][data-sa-time="ease-out"] {
+  animation-timing-function: ease-out; }
+[data-sa][data-sa-time="ease-in-out"] {
+  animation-timing-function: ease-in-out; }
+[data-sa][data-sa-time="linear"] {
+  animation-timing-function: linear; }
+[data-sa][data-sa-time="step-start"] {
+  animation-timing-function: step-start; }
+[data-sa][data-sa-time="step-end"] {
+  animation-timing-function: step-end; }
 
 /*# sourceMappingURL=sa.css.map */
