@@ -19,14 +19,24 @@ const creatdBoxs = () => {
             'data-sa-delay': '1000'
         },
         {
-            'data-sa': 'flip-left',
+            'data-sa': 'from-left',
             'data-sa-once': 'false',
-            'data-sa-offset': '50vw'
+            'data-sa-offset': '50'
+        },
+        {
+            'data-sa': 'from-right',
+            'data-sa-once': 'false',
+            'data-sa-offset': '500'
         },
         {
             'data-sa': 'scale',
-            'data-sa-offset': '500',
-            'data-sa-duration': '5000'
+            'data-sa-duration': '5000',
+            'data-sa-time': 'ease-out'
+        },
+        {
+            'data-sa': 'scale',
+            'data-sa-duration': '5000',
+            'data-sa-time': ' ease-in'
         },
         {
             'data-sa': 'fade',
