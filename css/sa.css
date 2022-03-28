@@ -2,73 +2,73 @@
 [data-sa][data-sa="fade"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="fade"].show {
     animation-name: sa-fade;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="from-left"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="from-left"].show {
     animation-name: sa-from-left;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="from-right"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="from-right"].show {
     animation-name: sa-from-right;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="from-top"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="from-top"].show {
     animation-name: sa-from-top;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="from-bottom"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="from-bottom"].show {
     animation-name: sa-from-bottom;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="flip-top"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="flip-top"].show {
     animation-name: sa-flip-top;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="flip-right"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="flip-right"].show {
     animation-name: sa-flip-right;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="flip-bottom"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="flip-bottom"].show {
     animation-name: sa-flip-bottom;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="flip-left"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="flip-left"].show {
     animation-name: sa-flip-left;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa="scale"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
-  opacity: 0; }
+  visibility: hidden; }
   [data-sa][data-sa="scale"].show {
     animation-name: sa-scale;
-    opacity: 1; }
+    visibility: visible; }
 [data-sa][data-sa-duration="500"] {
   animation-duration: 500ms; }
 [data-sa][data-sa-delay="500"] {

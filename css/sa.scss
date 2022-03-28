@@ -4,10 +4,10 @@
     &[data-sa="#{$arr}"] {
         animation-duration: #{$duration};
         animation-delay: #{$delay};
-        opacity: 0;
-        &.show {
+        visibility: hidden;
+        &.saShow {
             animation-name: sa-#{$arr};
-            opacity: 1;
+            visibility: visible;
         }
     }
 }
