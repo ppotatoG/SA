@@ -23,9 +23,6 @@
             &[data-sa-duration = "#{$i*500}"] {
                 animation-duration: #{$i*500}ms;
             }
-            &[data-sa-delay = "#{$i*500}"] {
-                animation-delay: #{$i*500}ms;
-            }
         }
     }
 
