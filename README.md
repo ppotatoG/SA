@@ -8,7 +8,7 @@ css
 ```html
 <link href="https://raw.githack.com/ppotatoG/SA/main/css/sa.css">
 ```
-
+ 
 javascript
 ```html
 <script src="https://raw.githack.com/ppotatoG/SA/main/js/sa.js"></script>
