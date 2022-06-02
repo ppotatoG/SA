@@ -1,5 +1,22 @@
 {
+  "name": "sa",
+  "version": "1.0.0",
+  "description": "[Demo](https://ppotatog.github.io/SA/demo/)",
+  "main": "./js/sa.js",
+  "scripts": {
+    "build": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es-sa/SA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/es-sa/SA/issues"
+  },
+  "homepage": "https://github.com/es-sa/SA#readme",
   "dependencies": {
-    "create-react-app": "^5.0.0"
+    "rollup": "^2.74.1"
   }
 }
