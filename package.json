@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/es-sa/SA.git"
   },
-  "author": "",
+  "author": {
+    "name": "ppotatoG",
+    "email": "thgus2270@gmail.com",
+    "url": "https://ppotatog.github.io/"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/es-sa/SA/issues"
@@ -18,5 +22,9 @@
   "homepage": "https://github.com/es-sa/SA#readme",
   "dependencies": {
     "rollup": "^2.74.1"
-  }
+  },
+  "keywords": [
+    "scrollAnimation",
+    "cssAnimation"
+  ]
 }
