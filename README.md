@@ -11,7 +11,7 @@ css
 
 javascript
 ```html
-<script src="https://raw.githack.com/ppotatoG/SA/main/js/sa.js"></script>
+<script src="https://raw.githack.com/ppotatoG/SA/main/js/sa.js"></script>   
 ```
 
 ## animation value   
