@@ -1,6 +1,6 @@
 # SA
 
-[Demo](https://ppotatog.github.io/SA/demo/)
+[Demo](https://ppotatog.github.io/SA/demo/)   
 
 ### CDN
 
@@ -14,7 +14,7 @@ javascript
 <script src="https://raw.githack.com/ppotatoG/SA/main/js/sa.js"></script>   
 ```
 
-## animation value
+## animation value   
 |property|property-value|
 |-|-|
 |animation-name|${dataset.sa}|
