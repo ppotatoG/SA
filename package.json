@@ -26,5 +26,9 @@
   "keywords": [
     "scrollAnimation",
     "cssAnimation"
+  ],
+  "files": [
+    "src",
+    "dist"
   ]
 }
