@@ -1,5 +1,2 @@
-src/
-node_modules/
-.gitignore
-.npmignore
 package-lock.json
+rollup.config
