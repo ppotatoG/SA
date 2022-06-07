@@ -1,5 +1,5 @@
-.idea
-.sass-cache
-.DS_Store
+src/
 node_modules/
+.gitignore
+.npmignore
 package-lock.json
