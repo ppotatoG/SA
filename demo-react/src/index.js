@@ -1,15 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
 import Header from './Header';
 import Contents from './Contents';
 
 import './style.css';
 
-ReactDOM.render(
-	<React.StrictMode>
+const wrap = ReactDOM.createRoot(document.getElementById('wrap'));
+
+wrap.render(
+	<>
 		<Header />
 		<Contents />
-	</React.StrictMode>,
-	document.getElementById('wrap')
+	</>
 );
