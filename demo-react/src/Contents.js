@@ -55,7 +55,7 @@ function Contents() {
 				<pre>
 					{
 						Object.entries(box).map((val) => {
-							return `${val[0]}=${val[1]}\n`
+							return `${val[0]}="${val[1]}"\n`
 						})
 					}
 				</pre>
@@ -65,15 +65,14 @@ function Contents() {
 
 	return (
 		<div className="contents">
-			<section id="main">
+            <section id="main">
                 <h2>
-                    <ul className="mainText">
-                    </ul>
-                    Scroll Animation
+                    <div className="mainText"></div>
+                    <p>Scroll Animation</p>
                 </h2>
             </section>
 
-			<section>
+            <section>
 				{box}
 			</section>
 		</div>

@@ -1,13 +1,13 @@
 function Header() {
 	return (
-		<header id="header"> 
+		<header id="header">
 			<div className="wrap">
 				<h1>SA</h1>
 				<ul>
-					<li><a href="https://github.com/ppotatoG/sa" target="_blank">githb</a></li>
-					<li><a href="https://blog.naver.com/thgus2270/222297608798" target="_blank">blog</a></li>
+					<li><a href="https://github.com/es-sa/SA" target="_blank">github</a></li>
+					<li><a href="https://www.npmjs.com/package/es-sa" target="_blank">npm</a></li>
 				</ul>
-			</div>            
+			</div>
 		</header>
 	);
 }
