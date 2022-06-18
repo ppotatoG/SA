@@ -6,12 +6,12 @@
 
 css
 ```html
-<link href="https://raw.githack.com/ppotatoG/SA/main/css/sa.css">
+<link href="https://cdn.jsdelivr.net/gh/es-sa/SA/dist/sa.css" rel="stylesheet">
 ```
 
 javascript
 ```html
-<script src="https://raw.githack.com/ppotatoG/SA/main/js/sa.js"></script>   
+<script src="https://cdn.jsdelivr.net/gh/es-sa/SA/dist/sa.js"></script>   
 ```
 
 ## animation value   
