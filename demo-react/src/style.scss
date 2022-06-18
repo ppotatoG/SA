@@ -86,7 +86,7 @@ header {
             overflow: hidden;
             padding: 0 1vw;
             ul {
-                transition: transform .2s;
+                animation: mainText 5s infinite linear;
                 li {
                     text: {
                         align: center;
@@ -108,6 +108,7 @@ header {
         }
     }
 }
+
 .box {
     width: 50vw;
     height: 50vw;
@@ -154,5 +155,23 @@ footer {
         .box {
             font-size: 12px;
         }
+    }
+}
+
+@keyframes mainText {
+    0% {
+        transform: translateY(0);
+     }
+    5% {
+        transform: translateY(-5rem);
+    }
+    55% {
+        transform: translateY(-5rem);
+    }
+    60% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
