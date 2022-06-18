@@ -64,32 +64,6 @@ const Contents = () => {
         )
     });
 
-    useEffect(() => {
-        const height = mainText.offsetHeight;
-        let flag = false;
-        let i = 1;
-
-        const loop = setInterval(() => {
-            // mainText.style.transform = `translateY(-${height * i}px)`;
-            console.log(flag)
-            if ( flag ) {
-                if ( i === 0 ) {
-                    flag = false;
-                    i++;
-                    return;
-                }
-                i--;
-            } else {
-                if ( i === mainTextArr.length - 1 ) {
-                    flag = true;
-                    i--;
-                    return;
-                }
-                i++;
-            }
-        }, 4000);
-    })
-
     const mainTextArr = ['easy', 'simple'];
     const mainText = mainTextArr.map((text, idx) => {
         return <li key={idx}>{text}</li>
