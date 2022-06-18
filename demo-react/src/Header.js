@@ -1,4 +1,4 @@
-function Header() {
+const Header = () => {
 	return (
 		<header id="header">
 			<div className="wrap">

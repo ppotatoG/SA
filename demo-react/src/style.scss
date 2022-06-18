@@ -9,8 +9,10 @@
 }
 header {
     width: 100%;
-    position: absolute;
+    position: sticky;
     top: 0;
+    background-color: rgba($color: #fff, $alpha: .1);
+    backdrop-filter: blur(2px);
     .wrap{
         transition: background-color .2s;
         width: 100%;
@@ -44,20 +46,6 @@ header {
             }
         }
     }
-    &.fix{
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: rgba($color: #fff, $alpha: .1);
-        backdrop-filter: blur(2px);
-        z-index: 10;
-        h1 {
-            color: #fff;
-        }
-        ul li a {
-            color: #fff;
-        }
-    }
 }
 #wrap {
     width: 100%;
@@ -76,6 +64,7 @@ header {
     justify-content: center;
     align-items: center;
     color: #fff;
+    margin-top: -8vw;
     h2 {
         font-size: 4rem;
         display: flex;
