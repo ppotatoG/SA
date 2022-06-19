@@ -13,10 +13,10 @@ const saInit = () => {
                 saNode.classList.add('saShow');
             }
         }
-        else if(saNode.dataset.saOnce === false) {
-            if(rect.top > point) {
-                saNode.classList.remove('saShow');
-            }
+        else if(saNode.dataset.saOnce === 'false') {
+            console.log(rect.top)
+            console.log(point)
+            saNode.classList.remove('saShow');
         }
     }
 }
