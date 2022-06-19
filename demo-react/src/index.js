@@ -7,10 +7,9 @@ import Contents from './Contents';
 import './style.css';
 
 const wrap = ReactDOM.createRoot(document.getElementById('wrap'));
-
 wrap.render(
-	<>
-		<Header />
-		<Contents />
-	</>
+    <React.StrictMode>
+        <Header />
+        <Contents />
+    </React.StrictMode>
 );
