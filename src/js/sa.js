@@ -3,6 +3,7 @@ const saInit = () => {
     const point = window.innerHeight;
     for (const saNode of saNodes) {
         const rect = saNode.getBoundingClientRect();
+
         if(rect.top <= point - point * .1) {
             if(saNode.dataset.saDelay) {
                 setTimeout(() => {
@@ -13,10 +14,11 @@ const saInit = () => {
                 saNode.classList.add('saShow');
             }
         }
-        else if(saNode.dataset.saOnce === 'false') {
-            console.log(rect.top)
-            console.log(point)
-            saNode.classList.remove('saShow');
+
+        if(saNode.dataset.saOnce === 'false') {
+            if((rect.top < point * -1 || rect.top > point)) {
+                saNode.classList.remove('saShow');
+            }
         }
     }
 }
