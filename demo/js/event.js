@@ -18,31 +18,15 @@ const creatdBoxs = () => {
             'data-sa': 'from-bottom',
             'data-sa-delay': '1000'
         },
-        // {
-        //     'data-sa': 'from-left',
-        //     'data-sa-once': 'false',
-        //     'data-sa-offset': '2000'
-        // },
+        {
+            'data-sa': 'from-left',
+            'data-sa-once': 'false',
+            'data-sa-offset': '50'
+        },
         {
             'data-sa': 'from-right',
             'data-sa-once': 'false',
-            'data-sa-offset': '500',
-            'data-sa-duration': '5000'
-        },
-        {
-            'data-sa': 'scale',
-            'data-sa-duration': '5000',
-            'data-sa-time': 'ease-out'
-        },
-        {
-            'data-sa': 'scale',
-            'data-sa-duration': '5000',
-            'data-sa-time': ' ease-in'
-        },
-        {
-            'data-sa': 'fade',
-            'data-sa-duration': '1500',
-            'data-sa-delay': '500'
+            'data-sa-offset': '500'
         },
         {
             'data-sa': 'scale',
@@ -79,12 +63,12 @@ const creatdBoxs = () => {
 
             div.dataset[dataName] = dataValue;
         })
-        
+
         const pre = document.createElement('pre');
         boxDataLists.map((boxDataList) => {
             pre.innerHTML += `${boxDataList[0]}="${boxDataList[1]}"\n`;
         })
-        
+
         div.appendChild(pre);
 
         boxWrap.appendChild(div);
@@ -94,17 +78,17 @@ const creatdBoxs = () => {
 (() => {
     const mainText = document.querySelector('.mainText');
     const mainTextArr = ['easy', 'simple'];
-    
+
     const mainTextUl = document.createElement('ul');
     mainText.appendChild(mainTextUl);
 
     mainTextArr.forEach((val) => {
         const li = document.createElement('li');
         li.innerText = `${val}`;
-        
+
         mainTextUl.appendChild(li);
     });
-    
+
     const height = mainText.offsetHeight;
     let flag = false;
     let i = 1;
