@@ -1,4 +1,9 @@
 import React, { useEffect } from 'react';
+import SA from 'es-sa';
+
+// useEffect(() => {
+//     SA.init();
+// })
 
 const Contents = () => {
     const boxs = [
