@@ -1,5 +1,5 @@
 export default {
-    input: './js/sa.js',
+    input: './src/js/sa.js',
     output: {
         file: './dist/sa.js',
         format: 'iife'
