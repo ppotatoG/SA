@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const saInit = () => {
+    const init = () => {
         const saNodes = document.querySelectorAll('[data-sa]');
         const point = window.innerHeight;
         for (const saNode of saNodes) {
@@ -26,6 +26,8 @@
         }
     };
 
-    window.addEventListener('scroll', saInit);
+    window.addEventListener('scroll', init);
+
+    return init;
 
 })();
