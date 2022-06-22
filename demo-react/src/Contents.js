@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
-import SA from 'es-sa';
-
-// useEffect(() => {
-//     SA.init();
-// })
+import SA from './SA';
 
 const Contents = () => {
+    // useEffect(() => {
+    //     console.log('user 값이 설정됨');
+    //     SA
+    // });
+
     const boxs = [
         {'data-sa': 'fade'},
         {'data-sa': 'from-right'},
