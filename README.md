@@ -25,8 +25,7 @@ javascript
 |animation-iteration-count|1|
 |animation-play-state|running|
 |animation-timing-function|ease|
-|animation-fill-mode|none|
-
+|animation-fill-mode|forwards|
 
 ## Type
 ```html
@@ -64,7 +63,7 @@ javascript
 
 해당 앨리먼트가 `n만큼 먼 곳에서부터` 애니메이션이 실행됩니다.
 
-기본값은 `200`이며, 50부터 10000까지 가능합니다.
+기본값은 `200`이며, 50부터 1000까지 가능합니다.
 
 `숫자형`으로 들어와야 하며, 단위는 `px`입니다.
 

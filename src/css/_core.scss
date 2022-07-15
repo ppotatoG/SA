@@ -34,12 +34,17 @@
     }
 
     $position-items : 'from-left', 'from-right', 'from-top', 'from-bottom';
-    @each $item in $position-items {
-        @for $i from 1 through 20{
+    @for $i from 1 through 20{
+        @each $item in $position-items {
             &[data-sa = "#{$item}"][data-sa-offset = "#{$i*50}"] {
                 animation-name: sa-#{$item}-#{$i*50};
             }
         }
+        
+        &[data-sa="scale"][data-sa-scale = "#{$i*5}"] {
+            animation-name: sa-scale-#{$i*5};
+        }
+
     }
 
     $time-functions: 'ease', 'ease-in', 'ease-out', 'ease-in-out', 'linear', 'step-start', 'step-end';
