@@ -5,14 +5,7 @@ const init = () => {
         const rect = saNode.getBoundingClientRect();
 
         if(rect.top <= point - point * .1) {
-            if(saNode.dataset.saDelay) {
-                setTimeout(() => {
-                    saNode.classList.add('saShow');
-                }, saNode.dataset.saDelay)
-            }
-            else {
-                saNode.classList.add('saShow');
-            }
+            saNode.classList.add('saShow');
         }
 
         if(saNode.dataset.saOnce === 'false') {

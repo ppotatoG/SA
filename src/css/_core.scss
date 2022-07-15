@@ -2,10 +2,10 @@
     &[data-sa="#{$arr}"] {
         animation-duration: #{$duration};
         animation-delay: #{$delay};
-        visibility: hidden;
+        animation-fill-mode: forwards;
+        opacity: 0;
         &.saShow {
             animation-name: sa-#{$arr};
-            visibility: visible;
         }
     }
 }
@@ -20,6 +20,9 @@
         @for $i from 1 through 20{
             &[data-sa-duration = "#{$i*500}"] {
                 animation-duration: #{$i*500}ms;
+            }
+            &[data-sa-delay = "#{$i*500}"] {
+                animation-delay: #{$i*500}ms;
             }
         }
     }
