@@ -1,8 +1,14 @@
 @mixin animation-mixin($arr, $duration, $delay) {
     &[data-sa="#{$arr}"] {
-        animation-duration: #{$duration};
-        animation-delay: #{$delay};
-        animation-fill-mode: forwards;
+        animation: {
+            duration: 1000ms;
+            delay: 0ms;
+            direction: normal;
+            iteration-count: 1;
+            play-state: running;
+            timing-function: ease;
+            fill-mode: forwards
+        }
         opacity: 0;
         &.saShow {
             animation-name: sa-#{$arr};
@@ -30,7 +36,7 @@
     $position-items : 'from-left', 'from-right', 'from-top', 'from-bottom';
     @each $item in $position-items {
         @for $i from 1 through 20{
-            &[data-sa = "#{$item}"][data-sa-offset = "#{$i*50}"].show {
+            &[data-sa = "#{$item}"][data-sa-offset = "#{$i*50}"] {
                 animation-name: sa-#{$item}-#{$i*50};
             }
         }

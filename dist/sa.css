@@ -540,6 +540,10 @@
 [data-sa][data-sa="fade"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="fade"].saShow {
@@ -547,6 +551,10 @@
 [data-sa][data-sa="from-left"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="from-left"].saShow {
@@ -554,6 +562,10 @@
 [data-sa][data-sa="from-right"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="from-right"].saShow {
@@ -561,6 +573,10 @@
 [data-sa][data-sa="from-top"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="from-top"].saShow {
@@ -568,6 +584,10 @@
 [data-sa][data-sa="from-bottom"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="from-bottom"].saShow {
@@ -575,6 +595,10 @@
 [data-sa][data-sa="flip-top"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="flip-top"].saShow {
@@ -582,6 +606,10 @@
 [data-sa][data-sa="flip-right"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="flip-right"].saShow {
@@ -589,6 +617,10 @@
 [data-sa][data-sa="flip-bottom"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="flip-bottom"].saShow {
@@ -596,6 +628,10 @@
 [data-sa][data-sa="flip-left"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="flip-left"].saShow {
@@ -603,6 +639,10 @@
 [data-sa][data-sa="scale"] {
   animation-duration: 1000ms;
   animation-delay: 0ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   opacity: 0; }
   [data-sa][data-sa="scale"].saShow {
@@ -1407,165 +1447,165 @@
   animation-duration: 10000ms; }
 [data-sa][data-sa-delay="10000"] {
   animation-delay: 10000ms; }
-[data-sa][data-sa="from-left"][data-sa-offset="50"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="50"] {
   animation-name: sa-from-left-50; }
-[data-sa][data-sa="from-left"][data-sa-offset="100"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="100"] {
   animation-name: sa-from-left-100; }
-[data-sa][data-sa="from-left"][data-sa-offset="150"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="150"] {
   animation-name: sa-from-left-150; }
-[data-sa][data-sa="from-left"][data-sa-offset="200"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="200"] {
   animation-name: sa-from-left-200; }
-[data-sa][data-sa="from-left"][data-sa-offset="250"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="250"] {
   animation-name: sa-from-left-250; }
-[data-sa][data-sa="from-left"][data-sa-offset="300"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="300"] {
   animation-name: sa-from-left-300; }
-[data-sa][data-sa="from-left"][data-sa-offset="350"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="350"] {
   animation-name: sa-from-left-350; }
-[data-sa][data-sa="from-left"][data-sa-offset="400"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="400"] {
   animation-name: sa-from-left-400; }
-[data-sa][data-sa="from-left"][data-sa-offset="450"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="450"] {
   animation-name: sa-from-left-450; }
-[data-sa][data-sa="from-left"][data-sa-offset="500"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="500"] {
   animation-name: sa-from-left-500; }
-[data-sa][data-sa="from-left"][data-sa-offset="550"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="550"] {
   animation-name: sa-from-left-550; }
-[data-sa][data-sa="from-left"][data-sa-offset="600"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="600"] {
   animation-name: sa-from-left-600; }
-[data-sa][data-sa="from-left"][data-sa-offset="650"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="650"] {
   animation-name: sa-from-left-650; }
-[data-sa][data-sa="from-left"][data-sa-offset="700"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="700"] {
   animation-name: sa-from-left-700; }
-[data-sa][data-sa="from-left"][data-sa-offset="750"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="750"] {
   animation-name: sa-from-left-750; }
-[data-sa][data-sa="from-left"][data-sa-offset="800"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="800"] {
   animation-name: sa-from-left-800; }
-[data-sa][data-sa="from-left"][data-sa-offset="850"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="850"] {
   animation-name: sa-from-left-850; }
-[data-sa][data-sa="from-left"][data-sa-offset="900"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="900"] {
   animation-name: sa-from-left-900; }
-[data-sa][data-sa="from-left"][data-sa-offset="950"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="950"] {
   animation-name: sa-from-left-950; }
-[data-sa][data-sa="from-left"][data-sa-offset="1000"].show {
+[data-sa][data-sa="from-left"][data-sa-offset="1000"] {
   animation-name: sa-from-left-1000; }
-[data-sa][data-sa="from-right"][data-sa-offset="50"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="50"] {
   animation-name: sa-from-right-50; }
-[data-sa][data-sa="from-right"][data-sa-offset="100"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="100"] {
   animation-name: sa-from-right-100; }
-[data-sa][data-sa="from-right"][data-sa-offset="150"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="150"] {
   animation-name: sa-from-right-150; }
-[data-sa][data-sa="from-right"][data-sa-offset="200"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="200"] {
   animation-name: sa-from-right-200; }
-[data-sa][data-sa="from-right"][data-sa-offset="250"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="250"] {
   animation-name: sa-from-right-250; }
-[data-sa][data-sa="from-right"][data-sa-offset="300"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="300"] {
   animation-name: sa-from-right-300; }
-[data-sa][data-sa="from-right"][data-sa-offset="350"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="350"] {
   animation-name: sa-from-right-350; }
-[data-sa][data-sa="from-right"][data-sa-offset="400"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="400"] {
   animation-name: sa-from-right-400; }
-[data-sa][data-sa="from-right"][data-sa-offset="450"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="450"] {
   animation-name: sa-from-right-450; }
-[data-sa][data-sa="from-right"][data-sa-offset="500"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="500"] {
   animation-name: sa-from-right-500; }
-[data-sa][data-sa="from-right"][data-sa-offset="550"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="550"] {
   animation-name: sa-from-right-550; }
-[data-sa][data-sa="from-right"][data-sa-offset="600"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="600"] {
   animation-name: sa-from-right-600; }
-[data-sa][data-sa="from-right"][data-sa-offset="650"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="650"] {
   animation-name: sa-from-right-650; }
-[data-sa][data-sa="from-right"][data-sa-offset="700"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="700"] {
   animation-name: sa-from-right-700; }
-[data-sa][data-sa="from-right"][data-sa-offset="750"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="750"] {
   animation-name: sa-from-right-750; }
-[data-sa][data-sa="from-right"][data-sa-offset="800"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="800"] {
   animation-name: sa-from-right-800; }
-[data-sa][data-sa="from-right"][data-sa-offset="850"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="850"] {
   animation-name: sa-from-right-850; }
-[data-sa][data-sa="from-right"][data-sa-offset="900"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="900"] {
   animation-name: sa-from-right-900; }
-[data-sa][data-sa="from-right"][data-sa-offset="950"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="950"] {
   animation-name: sa-from-right-950; }
-[data-sa][data-sa="from-right"][data-sa-offset="1000"].show {
+[data-sa][data-sa="from-right"][data-sa-offset="1000"] {
   animation-name: sa-from-right-1000; }
-[data-sa][data-sa="from-top"][data-sa-offset="50"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="50"] {
   animation-name: sa-from-top-50; }
-[data-sa][data-sa="from-top"][data-sa-offset="100"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="100"] {
   animation-name: sa-from-top-100; }
-[data-sa][data-sa="from-top"][data-sa-offset="150"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="150"] {
   animation-name: sa-from-top-150; }
-[data-sa][data-sa="from-top"][data-sa-offset="200"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="200"] {
   animation-name: sa-from-top-200; }
-[data-sa][data-sa="from-top"][data-sa-offset="250"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="250"] {
   animation-name: sa-from-top-250; }
-[data-sa][data-sa="from-top"][data-sa-offset="300"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="300"] {
   animation-name: sa-from-top-300; }
-[data-sa][data-sa="from-top"][data-sa-offset="350"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="350"] {
   animation-name: sa-from-top-350; }
-[data-sa][data-sa="from-top"][data-sa-offset="400"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="400"] {
   animation-name: sa-from-top-400; }
-[data-sa][data-sa="from-top"][data-sa-offset="450"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="450"] {
   animation-name: sa-from-top-450; }
-[data-sa][data-sa="from-top"][data-sa-offset="500"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="500"] {
   animation-name: sa-from-top-500; }
-[data-sa][data-sa="from-top"][data-sa-offset="550"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="550"] {
   animation-name: sa-from-top-550; }
-[data-sa][data-sa="from-top"][data-sa-offset="600"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="600"] {
   animation-name: sa-from-top-600; }
-[data-sa][data-sa="from-top"][data-sa-offset="650"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="650"] {
   animation-name: sa-from-top-650; }
-[data-sa][data-sa="from-top"][data-sa-offset="700"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="700"] {
   animation-name: sa-from-top-700; }
-[data-sa][data-sa="from-top"][data-sa-offset="750"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="750"] {
   animation-name: sa-from-top-750; }
-[data-sa][data-sa="from-top"][data-sa-offset="800"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="800"] {
   animation-name: sa-from-top-800; }
-[data-sa][data-sa="from-top"][data-sa-offset="850"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="850"] {
   animation-name: sa-from-top-850; }
-[data-sa][data-sa="from-top"][data-sa-offset="900"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="900"] {
   animation-name: sa-from-top-900; }
-[data-sa][data-sa="from-top"][data-sa-offset="950"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="950"] {
   animation-name: sa-from-top-950; }
-[data-sa][data-sa="from-top"][data-sa-offset="1000"].show {
+[data-sa][data-sa="from-top"][data-sa-offset="1000"] {
   animation-name: sa-from-top-1000; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="50"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="50"] {
   animation-name: sa-from-bottom-50; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="100"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="100"] {
   animation-name: sa-from-bottom-100; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="150"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="150"] {
   animation-name: sa-from-bottom-150; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="200"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="200"] {
   animation-name: sa-from-bottom-200; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="250"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="250"] {
   animation-name: sa-from-bottom-250; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="300"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="300"] {
   animation-name: sa-from-bottom-300; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="350"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="350"] {
   animation-name: sa-from-bottom-350; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="400"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="400"] {
   animation-name: sa-from-bottom-400; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="450"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="450"] {
   animation-name: sa-from-bottom-450; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="500"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="500"] {
   animation-name: sa-from-bottom-500; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="550"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="550"] {
   animation-name: sa-from-bottom-550; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="600"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="600"] {
   animation-name: sa-from-bottom-600; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="650"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="650"] {
   animation-name: sa-from-bottom-650; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="700"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="700"] {
   animation-name: sa-from-bottom-700; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="750"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="750"] {
   animation-name: sa-from-bottom-750; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="800"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="800"] {
   animation-name: sa-from-bottom-800; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="850"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="850"] {
   animation-name: sa-from-bottom-850; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="900"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="900"] {
   animation-name: sa-from-bottom-900; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="950"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="950"] {
   animation-name: sa-from-bottom-950; }
-[data-sa][data-sa="from-bottom"][data-sa-offset="1000"].show {
+[data-sa][data-sa="from-bottom"][data-sa-offset="1000"] {
   animation-name: sa-from-bottom-1000; }
 [data-sa][data-sa-time="ease"] {
   animation-timing-function: ease; }
