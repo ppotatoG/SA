@@ -86,10 +86,7 @@
 
 @keyframes sa-scale{
     0% {
-        transform: scale(0);
-    }
-    70% {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     100% {
         transform: scale(1);
@@ -120,7 +117,16 @@ $positions: 'top', 'right', 'bottom', 'left';
                 transform: translate(0, 0);
                 opacity: 1;
             }
-             
         }
     }
+
+    @keyframes sa-scale-#{$i*5}{
+        0% {
+            transform: scale(#{$i * .5});
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }   
 }

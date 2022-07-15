@@ -26,10 +26,11 @@ const creatdBoxs = () => {
         {
             'data-sa': 'from-right',
             'data-sa-once': 'false',
-            'data-sa-offset': '500'
+            'data-sa-offset': '1000'
         },
         {
             'data-sa': 'scale',
+            'data-sa-scale': '20',
             'data-sa-duration': '5000',
             'data-sa-time': 'ease-out'
         },

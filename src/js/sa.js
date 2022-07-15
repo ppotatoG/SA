@@ -18,4 +18,4 @@ const init = () => {
 
 window.addEventListener('scroll', init);
 
-export default init;
+// export default init;
