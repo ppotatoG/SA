@@ -1,18 +1,20 @@
-"use strict";
-const sa = {
+var sa = {
     saNodes: [],
-    viewPonit: .1,
-    scroll: function () {
-        if (this.saNodes && this.saNodes.length > 0) {
-            const point = window.innerHeight;
-            this.saNodes.forEach((saNode) => {
-                const rect = saNode.getBoundingClientRect();
-                const viewPonit = saNode.dataset.viewPonit || this.viewPonit;
-                if (rect.top <= point - +viewPonit) {
+    viewPoint: .1,
+    start: function () {
+        var _this = this;
+        if (this.saNodes.length > 0) {
+            var point_1 = window.innerHeight;
+            this.saNodes.forEach(function (saNode) {
+                var rect = saNode.getBoundingClientRect();
+                var viewPoint = saNode.dataset.viewPoint || _this.viewPoint;
+                if (rect.top <= point_1 - (+viewPoint)) {
                     saNode.classList.add('saShow');
+                    console.log(viewPoint);
+                    console.log(saNode);
                 }
                 if (saNode.dataset.saOnce === 'false') {
-                    if ((rect.top < point - +viewPonit || rect.top > point)) {
+                    if ((rect.top < point_1 - (+viewPoint) || rect.top > point_1)) {
                         saNode.classList.remove('saShow');
                     }
                 }
@@ -23,9 +25,9 @@ const sa = {
         this.saNodes = document.querySelectorAll(el);
     }
 };
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', function () {
     sa.init('[data-sa]');
 });
-window.addEventListener('scroll', () => {
-    sa.scroll();
+window.addEventListener('scroll', function () {
+    sa.start();
 });
