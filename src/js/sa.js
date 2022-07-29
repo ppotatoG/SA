@@ -1,20 +1,18 @@
 var sa = {
     saNodes: [],
-    viewPoint: .1,
+    threshold: .1,
     start: function () {
         var _this = this;
         if (this.saNodes.length > 0) {
             var point_1 = window.innerHeight;
-            this.saNodes.forEach(function (saNode) {
+            this.saNodes.forEach(function (saNode, i) {
                 var rect = saNode.getBoundingClientRect();
-                var viewPoint = saNode.dataset.viewPoint || _this.viewPoint;
-                if (rect.top <= point_1 - (+viewPoint)) {
+                var threshold = saNode.dataset.saThreshold || _this.threshold;
+                if (rect.top < point_1 - (+threshold * point_1)) {
                     saNode.classList.add('saShow');
-                    console.log(viewPoint);
-                    console.log(saNode);
                 }
                 if (saNode.dataset.saOnce === 'false') {
-                    if ((rect.top < point_1 - (+viewPoint) || rect.top > point_1)) {
+                    if ((rect.top < point_1 - (+threshold) || rect.top > point_1)) {
                         saNode.classList.remove('saShow');
                     }
                 }
