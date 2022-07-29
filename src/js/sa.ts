@@ -1,19 +1,33 @@
 interface saObj {
     saNodes: NodeListOf<HTMLElement> | [];
-    threshold: Number;
+    setThreshold: (n: number) => number;
     start: Function;
     init: Function;
 }
 
 const sa : saObj = {
-    saNodes: [], 
-    threshold: .1,
-    start: function() : void {
+    saNodes: [],
+    setThreshold: function(value : string | number | undefined) : number | undefined {
+        if(value) {
+            if(Number(value)) {
+                return Number(value);
+            }
+
+            else if((/[0-9]+%/).test(value.toString())) {
+                return Number(100 * (+ value / 100));
+            }
+        }
+
+        else {
+            return Number(.1);
+        }
+    },
+    start: function(test : string | number | undefined) : void {
         if(this.saNodes.length > 0) {
             const point = window.innerHeight;
-            this.saNodes.forEach((saNode : HTMLElement, i : number) : void => {
+            this.saNodes.forEach((saNode : HTMLElement) : void => {
                 const rect = saNode.getBoundingClientRect();
-                const threshold = saNode.dataset.saThreshold || this.threshold;
+                const threshold = this.setThreshold(test);
     
                 if(rect.top < point - (+ threshold * point)) {
                     saNode.classList.add('saShow');
@@ -37,5 +51,5 @@ window.addEventListener('DOMContentLoaded', () : void => {
 })
 
 window.addEventListener('scroll', () : void => {
-    sa.start();
+    sa.start(0);
 });
