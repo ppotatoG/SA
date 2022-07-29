@@ -1,26 +1,26 @@
 interface saObj {
     saNodes: NodeListOf<HTMLElement> | [];
-    viewPoint: Number;
+    threshold: Number;
     start: Function;
     init: Function;
 }
 
 const sa : saObj = {
     saNodes: [], 
-    viewPoint: .1,
+    threshold: .1,
     start: function() : void {
         if(this.saNodes.length > 0) {
             const point = window.innerHeight;
-            this.saNodes.forEach((saNode : HTMLElement) : void => {
+            this.saNodes.forEach((saNode : HTMLElement, i : number) : void => {
                 const rect = saNode.getBoundingClientRect();
-                const viewPoint = saNode.dataset.viewPoint || this.viewPoint;
+                const threshold = saNode.dataset.saThreshold || this.threshold;
     
-                if(rect.top <= point - (+ viewPoint)) {
+                if(rect.top < point - (+ threshold * point)) {
                     saNode.classList.add('saShow');
                 }
     
                 if(saNode.dataset.saOnce === 'false') {
-                    if((rect.top < point - (+ viewPoint) || rect.top > point)) {
+                    if((rect.top < point - (+ threshold) || rect.top > point)) {
                         saNode.classList.remove('saShow');
                     }
                 }

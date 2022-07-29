@@ -3,9 +3,18 @@ const creatdBoxs = () => {
         {'data-sa': 'fade'},
         {'data-sa': 'from-right'},
         {'data-sa': 'from-top'},
-        {'data-sa': 'from-bottom'},
-        {'data-sa': 'from-left'},
-        {'data-sa': 'flip-right'},
+        {
+            'data-sa': 'from-left',
+            'data-sa-threshold': '0'
+        },
+        {
+            'data-sa': 'from-left',
+            'data-sa-threshold': '1'
+        },
+        {
+            'data-sa': 'flip-right',
+            'data-sa-threshold': '.5'
+        },
         {'data-sa': 'flip-top'},
         {'data-sa': 'flip-bottom'},
         {'data-sa': 'flip-left'},
