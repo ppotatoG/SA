@@ -1,9 +1,10 @@
-# SA
+# es-sa
+
+쉽고 간편한 스크롤 애니메이션 라이브러리
 
 [Demo](https://es-sa.github.io/)
 
-### CDN
-
+## CDN
 css
 ```html
 <link href="https://cdn.jsdelivr.net/gh/es-sa/SA/dist/sa.css" rel="stylesheet">
