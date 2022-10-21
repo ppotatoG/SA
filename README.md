@@ -5,4 +5,4 @@
 
 [오가니제이션 README](https://github.com/es-sa/SA)
 
-[![Watch the video](./thumbnail.png)](./demo.mov)
+![Watch the video](./demo.gif)
