@@ -34,12 +34,12 @@
     $position-items : 'from-left', 'from-right', 'from-top', 'from-bottom';
     @for $i from 1 through 20{
         @each $item in $position-items {
-            &[data-sa = "#{$item}"][data-sa-offset = "#{$i*50}"] {
+            &[data-sa = "#{$item}"][data-sa-offset = "#{$i*50}"].saShow {
                 animation-name: sa-#{$item}-#{$i*50};
             }
         }
         
-        &[data-sa="scale"][data-sa-scale = "#{$i*5}"] {
+        &[data-sa="scale"][data-sa-scale = "#{$i*5}"].saShow {
             animation-name: sa-scale-#{$i*5};
         }
 
