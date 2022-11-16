@@ -22,14 +22,12 @@
         @include animation-mixin($item, 1000ms, 0ms);
     }
 
-    @each $item in $name {
-        @for $i from 1 through 20{
-            &[data-sa-duration = "#{$i*500}"] {
-                animation-duration: #{$i*500}ms;
-            }
-            &[data-sa-delay = "#{$i*500}"] {
-                animation-delay: #{$i*500}ms;
-            }
+    @for $i from 1 through 20{
+        &[data-sa-duration = "#{$i*500}"] {
+            animation-duration: #{$i*500}ms;
+        }
+        &[data-sa-delay = "#{$i*500}"] {
+            animation-delay: #{$i*500}ms;
         }
     }
 
