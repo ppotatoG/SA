@@ -79,7 +79,8 @@ header {
       font-size: 3rem; }
 
 .contents section {
-  padding: 10vw 0; }
+  padding: 10vw 0;
+  overflow: hidden; }
   .contents section:first-child {
     padding: 0; }
 
