@@ -19,11 +19,6 @@ const creatdBoxs = () => {
             'data-sa-delay': '1000'
         },
         {
-            'data-sa': 'from-left',
-            'data-sa-once': 'false',
-            'data-sa-offset': '50'
-        },
-        {
             'data-sa': 'from-right',
             'data-sa-once': 'false',
             'data-sa-offset': '1000'
