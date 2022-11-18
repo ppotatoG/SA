@@ -103,6 +103,7 @@ header {
 .contents{
     section{
         padding: 10vw 0;
+        overflow: hidden;
         &:first-child{
             padding: 0;
         }
