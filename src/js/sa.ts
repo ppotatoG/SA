@@ -1,5 +1,5 @@
 interface saObj {
-    saNodes: NodeListOf<HTMLElement> | [] | any;
+    saNodes: NodeListOf<HTMLElement> | [];
     threshold: number;
     setThreshold: Function;
     intersection: Function;
@@ -27,17 +27,18 @@ const sa: saObj = {
     }
 }
 
-const io = new IntersectionObserver((nodes : any, observer) => {
-    nodes.forEach((node : any)=> {
-        const target: HTMLElement = node.target;
+const io = new IntersectionObserver((nodes : IntersectionObserverEntry[]) => {
+    nodes.forEach((node : IntersectionObserverEntry)=> {
+        const target : Element = node.target;
+        // @ts-ignore
         const onceBool = target.dataset.saOnce === 'false';
 
         if (onceBool)  {
             console.log(node.isIntersecting)
             if (node.isIntersecting) {
                 target.classList.add('saShow');
-            } else if (node.isIntersecting === false) {
-                console.log(node)
+            } else if (!node.isIntersecting && target.classList.contains('saShow')) {
+                target.classList.remove('saShow');
             }
         } else {
             if (node.isIntersecting) {

@@ -20,17 +20,18 @@ var sa = {
         this.intersection();
     }
 };
-var io = new IntersectionObserver(function (nodes, observer) {
+var io = new IntersectionObserver(function (nodes) {
     nodes.forEach(function (node) {
         var target = node.target;
+        // @ts-ignore
         var onceBool = target.dataset.saOnce === 'false';
         if (onceBool) {
             console.log(node.isIntersecting);
             if (node.isIntersecting) {
                 target.classList.add('saShow');
             }
-            else if (node.isIntersecting === false) {
-                console.log(node);
+            else if (!node.isIntersecting && target.classList.contains('saShow')) {
+                target.classList.remove('saShow');
             }
         }
         else {
