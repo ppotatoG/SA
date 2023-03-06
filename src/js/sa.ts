@@ -1,5 +1,5 @@
 interface saObj {
-    saNodes: NodeListOf<HTMLElement> | [];
+    saNodes: NodeListOf<Element> | null;
     threshold: number;
     setThreshold: Function;
     intersection: Function;
@@ -7,22 +7,33 @@ interface saObj {
 }
 
 const sa: saObj = {
-    saNodes: [],
-    threshold: .1,
-    setThreshold: function (param: string | number): number | null {
-        if (!isNaN(<number>param)) {
-            return Number(param);
-        } else if ((/[0-9]+%/).test(param.toString())) {
-            return Number(100 * (+param / 100));
+    saNodes: null,
+    threshold: 0.1,
+    setThreshold: function (param: string | number): number {
+        if (typeof param === 'number') {
+            return param;
         }
-        return null;
+
+        if ((/^[0-9]+%$/).test(param.toString())) {
+            return Number(param.replace(/%/, '')) / 100;
+        }
+
+        return Number(0.1);
     },
     intersection: function (): void {
-        this.saNodes.forEach((saNode : HTMLElement) => io.observe(saNode));
+        if (this.saNodes && this.saNodes.length) {
+            this.saNodes.forEach((saNode) => io.observe(saNode));
+        }
     },
-    init: function (el: string, threshold?: number | string): void {
-        this.saNodes = document.querySelectorAll(el);
-        if (threshold) this.setThreshold(threshold);
+    init: function (threshold?: number): void {
+        const nodes = document.querySelectorAll('[data-sa]');
+        if (!nodes || nodes.length === 0) {
+            throw new Error('No matching elements found');
+        }
+        this.saNodes = nodes;
+        if (threshold !== undefined) {
+            this.threshold = this.setThreshold(threshold);
+        }
         this.intersection();
     }
 }
@@ -30,11 +41,12 @@ const sa: saObj = {
 const io = new IntersectionObserver((nodes : IntersectionObserverEntry[]) => {
     nodes.forEach((node : IntersectionObserverEntry)=> {
         const target : Element = node.target;
-        // @ts-ignore
-        const onceBool = target.dataset.saOnce === 'false';
 
-        if (onceBool)  {
-            console.log(node.isIntersecting)
+        if (!(target instanceof HTMLDivElement)) return false;
+
+        const once = target.dataset.saOnce === 'false';
+
+        if (once)  {
             if (node.isIntersecting) {
                 target.classList.add('saShow');
             } else if (!node.isIntersecting && target.classList.contains('saShow')) {
@@ -52,5 +64,5 @@ const io = new IntersectionObserver((nodes : IntersectionObserverEntry[]) => {
 });
 
 window.addEventListener('DOMContentLoaded', (): void => {
-    sa.init('[data-sa]');
+    sa.init('10%');
 });

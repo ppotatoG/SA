@@ -1,32 +1,40 @@
-var sa = {
-    saNodes: [],
-    threshold: .1,
+"use strict";
+const sa = {
+    saNodes: null,
+    threshold: 0.1,
     setThreshold: function (param) {
-        if (!isNaN(param)) {
-            return Number(param);
+        if (typeof param === 'number') {
+            return param;
         }
-        else if ((/[0-9]+%/).test(param.toString())) {
-            return Number(100 * (+param / 100));
+        if ((/^[0-9]+%$/).test(param.toString())) {
+            return Number(param.replace(/%/, '')) / 100;
         }
-        return null;
+        return Number(0.1);
     },
     intersection: function () {
-        this.saNodes.forEach(function (saNode) { return io.observe(saNode); });
+        if (this.saNodes && this.saNodes.length) {
+            this.saNodes.forEach((saNode) => io.observe(saNode));
+        }
     },
-    init: function (el, threshold) {
-        this.saNodes = document.querySelectorAll(el);
-        if (threshold)
-            this.setThreshold(threshold);
+    init: function (threshold) {
+        const nodes = document.querySelectorAll('[data-sa]');
+        if (!nodes || nodes.length === 0) {
+            throw new Error('No matching elements found');
+        }
+        this.saNodes = nodes;
+        if (threshold !== undefined) {
+            this.threshold = this.setThreshold(threshold);
+        }
         this.intersection();
     }
 };
-var io = new IntersectionObserver(function (nodes) {
-    nodes.forEach(function (node) {
-        var target = node.target;
-        // @ts-ignore
-        var onceBool = target.dataset.saOnce === 'false';
-        if (onceBool) {
-            console.log(node.isIntersecting);
+const io = new IntersectionObserver((nodes) => {
+    nodes.forEach((node) => {
+        const target = node.target;
+        if (!(target instanceof HTMLDivElement))
+            return false;
+        const once = target.dataset.saOnce === 'false';
+        if (once) {
             if (node.isIntersecting) {
                 target.classList.add('saShow');
             }
@@ -44,6 +52,6 @@ var io = new IntersectionObserver(function (nodes) {
 }, {
     threshold: sa.threshold
 });
-window.addEventListener('DOMContentLoaded', function () {
-    sa.init('[data-sa]');
+window.addEventListener('DOMContentLoaded', () => {
+    sa.init('10%');
 });
