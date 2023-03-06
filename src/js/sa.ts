@@ -65,7 +65,3 @@ const io = new IntersectionObserver(
     threshold: sa.threshold,
   },
 );
-
-window.addEventListener('DOMContentLoaded', (): void => {
-  sa.init('10%');
-});
