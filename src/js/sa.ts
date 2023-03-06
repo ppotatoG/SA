@@ -1,24 +1,41 @@
 interface saObj {
   saNodes: NodeListOf<Element> | null;
   threshold: number;
-  setThreshold: Function;
-  intersection: Function;
-  init: Function;
+  setThreshold: (threshold: any) => number;
+  intersection: () => void;
+  init: (threshold?: number) => void;
 }
 
 const sa: saObj = {
   saNodes: null,
   threshold: 0.1,
-  setThreshold: function (param: string | number): number {
-    if (typeof param === 'number') {
-      return param;
+  setThreshold: function (threshold: any): number {
+    if (typeof threshold === 'string') {
+      threshold = threshold.trim();
+      if (threshold === '') {
+        console.warn('threshold value is empty, using default value 0.1');
+        return 0.1;
+      }
+      if (isNaN(Number(threshold))) {
+        console.warn(`invalid threshold value "${threshold}", using default value 0.1`);
+        return 0.1;
+      }
+      threshold = Number(threshold);
     }
 
-    if (/^[0-9]+%$/.test(param.toString())) {
-      return Number(param.replace(/%/, '')) / 100;
+    if (typeof threshold !== 'number') {
+      console.warn(`invalid threshold value "${threshold}", using default value 0.1`);
+      return 0.1;
     }
 
-    return Number(0.1);
+    if (threshold > 1) {
+      console.warn(
+        `threshold value "${threshold}" cannot be greater than 1, using maximum value 1`,
+      );
+      threshold = 1;
+    }
+
+    return threshold;
   },
   intersection: function (): void {
     if (this.saNodes && this.saNodes.length) {
