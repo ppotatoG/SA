@@ -6,7 +6,7 @@ const sa = {
         if (typeof param === 'number') {
             return param;
         }
-        if ((/^[0-9]+%$/).test(param.toString())) {
+        if (/^[0-9]+%$/.test(param.toString())) {
             return Number(param.replace(/%/, '')) / 100;
         }
         return Number(0.1);
@@ -26,7 +26,7 @@ const sa = {
             this.threshold = this.setThreshold(threshold);
         }
         this.intersection();
-    }
+    },
 };
 const io = new IntersectionObserver((nodes) => {
     nodes.forEach((node) => {
@@ -50,7 +50,7 @@ const io = new IntersectionObserver((nodes) => {
         }
     });
 }, {
-    threshold: sa.threshold
+    threshold: sa.threshold,
 });
 window.addEventListener('DOMContentLoaded', () => {
     sa.init('10%');

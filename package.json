@@ -31,5 +31,8 @@
   "files": [
     "src",
     "dist"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
 }
