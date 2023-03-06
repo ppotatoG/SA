@@ -120,3 +120,7 @@ document.addEventListener('scroll', () => {
     header.classList.remove('fix');
   }
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+  sa.init('10%');
+});
