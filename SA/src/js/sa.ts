@@ -3,7 +3,7 @@ interface saObj {
   threshold: number; // Scroll 위치와 대상 요소의 교차점을 판단하는 기준값
   setThreshold: (threshold: any) => number; // threshold 값을 설정하는 함수
   intersection: () => void; // intersection observer 등록 함수
-  init: (threshold?: number) => void; // 플러그인 초기화 함수
+  init: (threshold?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1) => void; // 플러그인 초기화 함수
 }
 
 const sa: saObj = {
@@ -51,7 +51,7 @@ const sa: saObj = {
   },
 
   /** 플러그인 초기화 함수 */
-  init: function (threshold?: number): void {
+  init: function (threshold?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1): void {
     const nodes = document.querySelectorAll('[data-sa]');
     if (!nodes || nodes.length === 0) {
       throw new Error('No matching elements found');
