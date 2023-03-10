@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
-import SA from './SA';
+
+import { ESSA } from './ESSA';
+import './sa.css';
 
 const Contents = () => {
-  // useEffect(() => {
-  //     console.log('user 값이 설정됨');
-  //     SA
-  // });
+  useEffect(() => {
+    console.log(ESSA.ESSANodes);
+    ESSA.init();
+  }, [ESSA.ESSANodes]);
 
   const boxs = [
     { 'data-sa': 'fade' },
@@ -52,6 +54,7 @@ const Contents = () => {
       'data-sa-delay': '500',
     },
   ];
+
   const box = boxs.map((box, boxIdx) => {
     return (
       <div className="box" key={boxIdx} {...box}>
