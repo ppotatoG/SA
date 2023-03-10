@@ -38,7 +38,7 @@ exports.ESSA = {
     },
     /** 플러그인 초기화 함수 */
     init: function (threshold) {
-        const nodes = document.querySelectorAll('[data-ESSA]');
+        const nodes = document.querySelectorAll('[data-EsSa]');
         if (!nodes || nodes.length === 0) {
             throw new Error('No matching elements found');
         }

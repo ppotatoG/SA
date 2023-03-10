@@ -1,27 +1,27 @@
 interface saObj {
-  saNodes: NodeListOf<Element> | null; // 교차점을 지나는 대상 요소들을 저장할 NodeList
+  saNodes: NodeListOf<Element> | []; // 교차점을 지나는 대상 요소들을 저장할 NodeList
   threshold: number; // Scroll 위치와 대상 요소의 교차점을 판단하는 기준값
-  setThreshold: (threshold: any) => number; // threshold 값을 설정하는 함수
+  setThreshold: (threshold: string | number) => number; // threshold 값을 설정하는 함수
   intersection: () => void; // intersection observer 등록 함수
   init: (threshold?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1) => void; // 플러그인 초기화 함수
 }
 
 const sa: saObj = {
   /** 교차점을 지나는 대상 요소들을 저장할 NodeList */
-  saNodes: null,
+  saNodes: [],
 
   /** Scroll 위치와 대상 요소의 교차점을 판단하는 기준값 */
   threshold: 0.1,
 
   /** threshold 값을 설정하는 함수 */
-  setThreshold: function (threshold: any): number {
+  setThreshold: function (threshold: string | number): number {
     if (typeof threshold === 'string') {
       threshold = threshold.trim();
       if (threshold === '') {
         console.warn('threshold value is empty, using default value 0.1');
         return 0.1;
       }
-      if (isNaN(Number(threshold))) {
+      if (!isFinite(Number(threshold))) {
         console.warn(`invalid threshold value "${threshold}", using default value 0.1`);
         return 0.1;
       }
@@ -46,7 +46,9 @@ const sa: saObj = {
   /** intersection observer 등록 함수 */
   intersection: function (): void {
     if (this.saNodes && this.saNodes.length) {
-      this.saNodes.forEach((saNode) => io.observe(saNode));
+      for (const saNode of sa.saNodes) {
+        io.observe(saNode);
+      }
     }
   },
 
