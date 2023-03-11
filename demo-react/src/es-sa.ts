@@ -1,5 +1,5 @@
 export interface saObj {
-  saNodes: NodeListOf<Element> | []; // 교차점을 지나는 대상 요소들을 저장할 NodeList
+  saNodes: HTMLDivElement[] | []; // 교차점을 지나는 대상 요소들을 저장할 NodeList
   threshold: number; // Scroll 위치와 대상 요소의 교차점을 판단하는 기준값
   setThreshold: (threshold: string | number) => number; // threshold 값을 설정하는 함수
   intersection: () => void; // intersection observer 등록 함수
@@ -45,7 +45,7 @@ export const ESSA: saObj = {
 
   /** intersection observer 등록 함수 */
   intersection: function (): void {
-    if (this.saNodes && this.saNodes.length) {
+    if (ESSA.saNodes && ESSA.saNodes.length) {
       for (const saNode of ESSA.saNodes) {
         io.observe(saNode);
       }
@@ -54,15 +54,10 @@ export const ESSA: saObj = {
 
   /** 플러그인 초기화 함수 */
   init: function (threshold?: 0 | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | 1): void {
-    const nodes = document.querySelectorAll('[data-sa]');
-    if (!nodes || nodes.length === 0) {
-      throw new Error('No matching elements found');
-    }
-    this.saNodes = nodes;
     if (threshold !== undefined) {
-      this.threshold = this.setThreshold(threshold);
+      ESSA.threshold = ESSA.setThreshold(threshold);
     }
-    this.intersection();
+    ESSA.intersection();
   },
 };
 

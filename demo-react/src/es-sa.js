@@ -32,7 +32,7 @@ exports.ESSA = {
     },
     /** intersection observer 등록 함수 */
     intersection: function () {
-        if (this.saNodes && this.saNodes.length) {
+        if (exports.ESSA.saNodes && exports.ESSA.saNodes.length) {
             for (const saNode of exports.ESSA.saNodes) {
                 io.observe(saNode);
             }
@@ -40,15 +40,10 @@ exports.ESSA = {
     },
     /** 플러그인 초기화 함수 */
     init: function (threshold) {
-        const nodes = document.querySelectorAll('[data-sa]');
-        if (!nodes || nodes.length === 0) {
-            throw new Error('No matching elements found');
-        }
-        this.saNodes = nodes;
         if (threshold !== undefined) {
-            this.threshold = this.setThreshold(threshold);
+            exports.ESSA.threshold = exports.ESSA.setThreshold(threshold);
         }
-        this.intersection();
+        exports.ESSA.intersection();
     },
 };
 /** js Observer API 커스텀 함수 */
