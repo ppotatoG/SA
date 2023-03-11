@@ -1,12 +1,10 @@
-import { terser } from "rollup-plugin-terser";
+import { terser } from 'rollup-plugin-terser';
 
 export default {
-  input: './src/js/sa.js',
+  input: './src/js/es-sa.js',
   output: {
-    file: './dist/sa.js',
+    file: './dist/es-sa.js',
     format: 'iife',
   },
-  plugins: [
-    terser(),
-  ],
+  plugins: [terser()],
 };
