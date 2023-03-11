@@ -6,6 +6,9 @@
   "scripts": {
     "build": "../node_modules/.bin/rollup -c -w"
   },
+  "peerDependencies": {
+    "react": "^16.14.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/es-sa/SA.git"
@@ -34,6 +37,10 @@
     "SA/dist"
   ],
   "devDependencies": {
-    "prettier": "^2.8.4"
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.28",
+    "prettier": "^2.8.4",
+    "tslib": "^2.5.0"
   }
 }
