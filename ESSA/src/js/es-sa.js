@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.ESSA = void 0;
-exports.ESSA = {
+export const ESSA = {
     /** 교차점을 지나는 대상 요소들을 저장할 NodeList */
     saNodes: [],
     /** Scroll 위치와 대상 요소의 교차점을 판단하는 기준값 */
@@ -32,8 +29,8 @@ exports.ESSA = {
     },
     /** intersection observer 등록 함수 */
     intersection: function () {
-        if (exports.ESSA.saNodes && exports.ESSA.saNodes.length) {
-            for (const saNode of exports.ESSA.saNodes) {
+        if (ESSA.saNodes && ESSA.saNodes.length) {
+            for (const saNode of ESSA.saNodes) {
                 io.observe(saNode);
             }
         }
@@ -41,9 +38,9 @@ exports.ESSA = {
     /** 플러그인 초기화 함수 */
     init: function (threshold) {
         if (threshold !== undefined) {
-            exports.ESSA.threshold = exports.ESSA.setThreshold(threshold);
+            ESSA.threshold = ESSA.setThreshold(threshold);
         }
-        exports.ESSA.intersection();
+        ESSA.intersection();
     },
 };
 /** js Observer API 커스텀 함수 */
@@ -70,5 +67,5 @@ const io = new IntersectionObserver((nodes) => {
         }
     });
 }, {
-    threshold: exports.ESSA.threshold, // 기준값 설정
+    threshold: ESSA.threshold, // 기준값 설정
 });
