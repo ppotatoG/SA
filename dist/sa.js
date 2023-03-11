@@ -1,1 +1,30 @@
-!function(){"use strict";const e={saNodes:[],threshold:.1,setThreshold:function(e){if("string"==typeof e){if(""===(e=e.trim()))return console.warn("threshold value is empty, using default value 0.1"),.1;if(!isFinite(Number(e)))return console.warn(`invalid threshold value "${e}", using default value 0.1`),.1;e=Number(e)}return"number"!=typeof e?(console.warn(`invalid threshold value "${e}", using default value 0.1`),.1):(e>1&&(console.warn(`threshold value "${e}" cannot be greater than 1, using maximum value 1`),e=1),e)},intersection:function(){if(this.saNodes&&this.saNodes.length)for(const t of e.saNodes)s.observe(t)},init:function(e){const s=document.querySelectorAll("[data-sa]");if(!s||0===s.length)throw new Error("No matching elements found");this.saNodes=s,void 0!==e&&(this.threshold=this.setThreshold(e)),this.intersection()}},s=new IntersectionObserver((e=>{e.forEach((e=>{const t=e.target;if(!(t instanceof HTMLDivElement))return!1;"false"===t.dataset.saOnce?e.isIntersecting?t.classList.add("saShow"):!e.isIntersecting&&t.classList.contains("saShow")&&t.classList.remove("saShow"):e.isIntersecting&&(t.classList.add("saShow"),s.unobserve(t))}))}),{threshold:e.threshold})}();
+(function (factory) {
+    typeof define === 'function' && define.amd ? define(factory) :
+    factory();
+})((function () { 'use strict';
+
+    const saInit = () => {
+        const saNodes = document.querySelectorAll("[data-sa]");
+        const point = window.innerHeight;
+        for ( const saNode of saNodes){
+            const rect = saNode.getBoundingClientRect();
+            if(rect.top <= point) {
+                if(saNode.dataset.saDelay) {
+                    setTimeout(() => {
+                        saNode.classList.add('saShow');
+                        }, saNode.dataset.saDelay);
+                }
+                else {
+                    saNode.classList.add('saShow');
+                }
+            } else if(saNode.dataset.saOnce === 'false'){
+                if(rect.top > point + point*(0.1)) {
+                    saNode.classList.remove('saShow');
+                }
+            }
+        }
+    };
+
+    window.addEventListener('scroll', saInit);
+
+}));
