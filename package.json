@@ -10,17 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/es-sa/SA.git"
   },
-  "author": {
-    "name": "ppotatoG",
-    "email": "thgus2270@gmail.com",
-    "url": "https://ppotatog.github.io/"
-  },
+  "author": "ppotatoG <thgus2270@gmail.com> (https://ppotatog.github.io/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/es-sa/SA/issues"
   },
   "homepage": "https://github.com/es-sa/SA#readme",
   "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
     "rollup": "^2.74.1",
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.7.4"
@@ -34,6 +31,8 @@
     "SA/dist"
   ],
   "devDependencies": {
-    "prettier": "^2.8.4"
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "prettier": "^2.8.4",
+    "rollup-plugin-commonjs": "^10.1.0"
   }
 }

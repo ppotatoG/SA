@@ -9,23 +9,27 @@ var sa = {
             threshold = threshold.trim();
             if (threshold === '') {
                 console.warn('threshold value is empty, using default value 0.1');
-                return 0.1;
+                threshold = 0.1;
             }
             if (!isFinite(Number(threshold))) {
                 console.warn("invalid threshold value \"".concat(threshold, "\", using default value 0.1"));
-                return 0.1;
+                threshold = 0.1;
             }
             threshold = Number(threshold);
         }
         if (typeof threshold !== 'number') {
             console.warn("invalid threshold value \"".concat(threshold, "\", using default value 0.1"));
-            return 0.1;
+            threshold = 0.1;
         }
         if (threshold > 1) {
             console.warn("threshold value \"".concat(threshold, "\" cannot be greater than 1, using maximum value 1"));
             threshold = 1;
         }
-        return threshold;
+        else if (threshold < 0) {
+            console.warn("threshold value \"".concat(threshold, "\" cannot be less than 0, using minimum value 0"));
+            threshold = 0;
+        }
+        sa.threshold = threshold;
     },
     /** intersection observer 등록 함수 */
     intersection: function () {
@@ -44,7 +48,7 @@ var sa = {
         }
         sa.saNodes = nodes;
         if (threshold !== undefined) {
-            sa.threshold = sa.setThreshold(threshold);
+            sa.setThreshold(threshold);
         }
         sa.intersection();
     },
@@ -56,7 +60,7 @@ var io = new IntersectionObserver(function (nodes) {
         if (!(target instanceof HTMLDivElement))
             return false;
         /** 애니메이션을 한 번만 실행할 것인지 여부 */
-        var once = target.dataset.saOnce === 'false';
+        var once = target.dataset.saOnce !== 'true';
         if (once) {
             if (node.isIntersecting) {
                 target.classList.add('saShow'); // 애니메이션 클래스 추가
@@ -75,3 +79,4 @@ var io = new IntersectionObserver(function (nodes) {
 }, {
     threshold: sa.threshold, // 기준값 설정
 });
+window.sa = sa;
