@@ -1,10 +1,23 @@
+import typescript from '@rollup/plugin-typescript';
+import react from 'react';
 import { terser } from 'rollup-plugin-terser';
+import commonjs from '@rollup/plugin-commonjs';
 
 export default {
-  input: './src/js/es-sa.js',
+  input: { main: './src/js/es-sa.js', component: './src/js/SaBox.js' },
   output: {
-    file: './dist/es-sa.js',
-    format: 'iife',
+    dir: 'dist',
+    format: 'esm',
   },
-  plugins: [terser()],
+  plugins: [
+    typescript({
+      tsconfig: 'tsconfig.json',
+      declaration: true,
+      declarationDir: './dist/types',
+      rootDir: './src',
+    }),
+    terser(),
+    commonjs(),
+  ],
+  external: ['react'],
 };
