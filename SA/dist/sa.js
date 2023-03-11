@@ -1,1 +1,0 @@
-!function(){"use strict";const s=new IntersectionObserver((t=>{t.forEach((t=>{const e=t.target;if(!(e instanceof HTMLDivElement))return!1;"false"===e.dataset.saOnce?t.isIntersecting?e.classList.add("saShow"):!t.isIntersecting&&e.classList.contains("saShow")&&e.classList.remove("saShow"):t.isIntersecting&&(e.classList.add("saShow"),s.unobserve(e))}))}),{threshold:.1})}();
