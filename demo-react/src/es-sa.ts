@@ -1,5 +1,5 @@
 export interface saObj {
-  saNodes: HTMLDivElement[] | []; // 교차점을 지나는 대상 요소들을 저장할 NodeList
+  saNodes: HTMLElement[]; // 교차점을 지나는 대상 요소들을 저장할 NodeList
   threshold: number; // Scroll 위치와 대상 요소의 교차점을 판단하는 기준값
   setThreshold: (threshold: string | number) => number; // threshold 값을 설정하는 함수
   intersection: () => void; // intersection observer 등록 함수

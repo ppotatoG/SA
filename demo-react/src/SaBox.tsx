@@ -47,7 +47,7 @@ const SaBox: React.FC<SaBoxProps> = ({
     ESSA.intersection();
 
     return () => {
-      ESSA.saNodes = ESSA.saNodes?.filter((node: Element) => node !== saNode);
+      ESSA.saNodes = ESSA.saNodes?.filter((node: HTMLElement) => node !== saNode);
     };
   }, [type, duration, delay, timing, once]);
 
