@@ -3,16 +3,16 @@ import { ESSA } from './es-sa';
 
 interface SaBoxProps {
   type:
-    | 'from-left'
-    | 'from-right'
-    | 'from-top'
-    | 'from-bottom'
-    | 'flip-left'
-    | 'flip-right'
-    | 'flip-top'
-    | 'flip-bottom'
-    | 'scale'
-    | 'fade';
+      | 'from-left'
+      | 'from-right'
+      | 'from-top'
+      | 'from-bottom'
+      | 'flip-left'
+      | 'flip-right'
+      | 'flip-top'
+      | 'flip-bottom'
+      | 'scale'
+      | 'fade';
   duration?: number;
   delay?: number;
   timing?: 'ease' | 'ease-in' | 'ease-out' | 'ease-in-out' | 'linear' | 'step-start' | 'step-end';
@@ -22,14 +22,14 @@ interface SaBoxProps {
 }
 
 const SaBox: React.FC<SaBoxProps> = ({
-  type,
-  duration,
-  delay,
-  timing,
-  once,
-  className,
-  children,
-}: SaBoxProps) => {
+                                       type,
+                                       duration,
+                                       delay,
+                                       timing,
+                                       once,
+                                       className,
+                                       children,
+                                     }) => {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -52,9 +52,9 @@ const SaBox: React.FC<SaBoxProps> = ({
   }, [type, duration, delay, timing, once]);
 
   return (
-    <div className={`saBox ${className}`} ref={ref}>
-      {children}
-    </div>
+      <div className={`saBox ${className}`} ref={ref}>
+        {children}
+      </div>
   );
 };
 
