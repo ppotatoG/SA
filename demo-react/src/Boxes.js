@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 
-import './sa.css';
-import SaBox from './SaBox';
-import { ESSA } from './es-sa';
+import { ESSA } from 'es-sa/dist/main';
+import { SaBox } from 'es-sa/dist/component';
+import 'es-sa/dist/sa.css';
 
 const boxesData = [
   { type: 'fade' },
