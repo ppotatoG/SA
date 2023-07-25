@@ -1,4 +1,5 @@
 # es-sa
+> Easy Simple Scroll Animation
 
 쉽고 간편한 스크롤 애니메이션 라이브러리
 
